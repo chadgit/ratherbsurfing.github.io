@@ -1,0 +1,288 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"JSONED",
+				"JSONEditor"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"zo",
+				"zoomLevelSpan"
+			],
+			[
+				"lo",
+				"LobiAdmin"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"clean",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/chadcollins/Documents/csubs_sites3/internal",
+		"/Users/chadcollins/Documents/csubs_sites3/internal/deliver",
+		"/Users/chadcollins/Documents/csubs_sites3/internal/monitor"
+	],
+	"file_history":
+	[
+		"/Users/chadcollins/Documents/csubs_sites3/internal/accounting/CoversheetInvoice.cfm",
+		"/Users/chadcollins/Documents/csubs_sites3/internal/accounting/CoversheetInvoiceWebSettings.cfm",
+		"/Users/chadcollins/Documents/csubs_sites3/internal/accounting/VendorLetterTransfer.cfm",
+		"/Users/chadcollins/Documents/csubs_sites3/internal/accounting/VendorLetterCancellation.cfm",
+		"/Users/chadcollins/Documents/csubs_sites3/internal/accounting/RenewalLetter_Individual.cfm",
+		"/Users/chadcollins/Documents/csubs_sites3/internal/accounting/NonRenewal_Centralized.cfm",
+		"/Users/chadcollins/Documents/csubs_sites3/internal/accounting/DetailSheetWide_PrintWithWebSettings.cfm",
+		"/Users/chadcollins/Documents/csubs_sites3/internal/accounting/DetailSheetWide.cfm",
+		"/Users/chadcollins/Documents/csubs_sites3/internal/accounting/CreditInvoices.cfm",
+		"/Users/chadcollins/Documents/csubs_sites3/internal/accounting/DetailSheet_PrintWithWebSettings.cfm",
+		"/Users/chadcollins/Documents/csubs_sites3/internal/accounting/CreditInvoicesPrintWithWebSettings.cfm",
+		"/Users/chadcollins/Documents/csubs_sites3/internal/accounting/DetailSheet.cfm",
+		"/Users/chadcollins/Documents/csubs_sites3/internal/accounting/CreditMemoDetail.cfm",
+		"/Users/chadcollins/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/Users/chadcollins/Documents/csubs_sites3/internal/SideNavigation/SideNavigation.cfm",
+		"/Users/chadcollins/Documents/csubs_sites3/internal/SideNavigation/sidenavigation.js",
+		"/Users/chadcollins/Desktop/yrdy.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/index.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/login.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/BootstrapGenerator/index.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/jQuery-gridmanager-master/demo/simple_light.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/dashboard.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/BootstrapGenerator/index.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/index.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/main.js",
+		"/Users/chadcollins/Sites/csubs/apps/release-4/htdocs_client/package.json",
+		"/Users/chadcollins/Documents/docker/localdev/docker-compose.yml",
+		"/Users/chadcollins/Sites/csubs/apps/release-4/htdocs_client/yarn.lock",
+		"/Users/chadcollins/Documents/docker/localdev (trunk)/docker-compose.yml",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/boot_strap_page_builder/js/scripts.js",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/BootstrapPageGenerator/css/toolbox.css",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/boot_strap_page_builder/ckeditor/ckeditor.js",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/boot_strap_page_builder/index.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/BootstrapPageGenerator/js/scripts.js",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/BootstrapPageGenerator/ckeditor/core/ckeditor_base.js",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/BootstrapPageGenerator/index.html",
+		"/private/etc/hosts",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/test.js",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/js/lobi-plugins/lobipanel.min.js",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/lobipanel.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/foo.json",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/README.md",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/dashboards.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/treeview.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/test-2.json",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/profile.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/calendar.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/websites.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/renderer.js",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/foo.json",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/js/webview-helper.js",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/foo.json",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/JSONEditor_files/jsoneditor.js",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/jsoneditor.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/JSONEditor.htm",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/dashboard-bak.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/pages/chartjs.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/css/lobiadmin-with-plugins.css",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/lock.html",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/ui/admin/lobiadmin/version/1.0/ajax/# Default Virtual Host configuration.",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/package.json",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/package-lock.json",
+		"/Users/chadcollins/Documents/GitHub/radmin/radmin/.gitignore",
+		"/Users/chadcollins/Documents/GitHub/electron-google-oauth-master/index.js",
+		"/Users/chadcollins/Documents/GitHub/auth2/electron-google-oauth/index.js",
+		"/Users/chadcollins/Documents/GitHub/auth2/electron-google-oauth/bin.js",
+		"/Users/chadcollins/Documents/GitHub/qa-dev-report-tool-desktop-manager/admin/version/1.0/ajax/pages/image-cropping.html",
+		"/Users/chadcollins/Documents/GitHub/qa-dev-report-tool-desktop-manager/admin/index.html",
+		"/Users/chadcollins/Documents/GitHub/qa-dev-report-tool-desktop-manager/package.json",
+		"/Users/chadcollins/Documents/GitHub/qa-dev-report-tool-desktop-manager/package-lock.json",
+		"/Users/chadcollins/lobi-tron/admin/version/1.0/ajax/lock.html",
+		"/Users/chadcollins/lobi-tron/admin/version/1.0/ajax/index.html",
+		"/Users/chadcollins/lobi-tron/admin/version/1.0/ajax/login.html",
+		"/Users/chadcollins/lobi-tron/admin/version/1.0/ajax/pages/test.html",
+		"/Users/chadcollins/lobi-tron/admin/version/1.0/ajax/pages/marketing-reports.html",
+		"/Users/chadcollins/electron-browser/admin/version/1.0/ajax/index.html",
+		"/Users/chadcollins/electron-browser/admin/version/1.0/ajax/pages/test.html",
+		"/Users/chadcollins/electron-browser/browser.html",
+		"/Users/chadcollins/electron-browser/browser.jsx"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"/Users/chadcollins/Documents/csubs_sites3/internal/accounting"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<img src='https://staging1-internal.csubs.com/images/clogo.PNG' style=\"width:80px;height:27px;\">",
+			"<img src='https://staging1-internal.csubs.com/images/clogo.PNG' style=\"width:80px;height:27px;\"></img>",
+			"staging1-internal",
+			"toggle_StatementInv"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<img style=' width:80px;height:27px;' id='base64image' src='data:image/png;base64,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' />",
+			"<img src='https://staging1-internal.csubs.com/images/clogo.PNG' style=\"width:80px;height:27px;\">"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "chadcollins.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/electron-browser/electron-browser.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 422.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
