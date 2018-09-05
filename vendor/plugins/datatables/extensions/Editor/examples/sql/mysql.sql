@@ -294,7 +294,7 @@ INSERT INTO `datatables_demo`
 		( 13, 'Charde', 'Marshall', 36, 'Regional Director', 470600, '2008/10/16', 6741, 'c.marshall@datatables.net', 'San Francisco' ),
 		( 14, 'Haley', 'Kennedy', 43, 'Senior Marketing Designer', 313500, '2012/12/18', 3597, 'h.kennedy@datatables.net', 'London' ),
 		( 15, 'Tatyana', 'Fitzpatrick', 19, 'Regional Director', 385750, '2010/03/17', 1965, 't.fitzpatrick@datatables.net', 'London' ),
-		( 16, 'Michael', 'Silva', 66, 'Marketing Designer', 198500, '2012/11/27', 1581, 'm.silva@datatables.net', 'London' ),
+		( 16, 'Chad', 'Silva', 66, 'Marketing Designer', 198500, '2012/11/27', 1581, 'm.silva@datatables.net', 'London' ),
 		( 17, 'Paul', 'Byrd', 64, 'Chief Financial Officer (CFO)', 725000, '2010/06/09', 3059, 'p.byrd@datatables.net', 'New York' ),
 		( 18, 'Gloria', 'Little', 59, 'Systems Administrator', 237500, '2009/04/10', 1721, 'g.little@datatables.net', 'New York' ),
 		( 19, 'Bradley', 'Greer', 41, 'Software Engineer', 132000, '2012/10/13', 2558, 'b.greer@datatables.net', 'London' ),
@@ -334,5 +334,5 @@ INSERT INTO `datatables_demo`
 		( 53, 'Lael', 'Greer', 21, 'Systems Administrator', 103500, '2009/02/27', 6733, 'l.greer@datatables.net', 'London' ),
 		( 54, 'Jonas', 'Alexander', 30, 'Developer', 86500, '2010/07/14', 8196, 'j.alexander@datatables.net', 'San Francisco' ),
 		( 55, 'Shad', 'Decker', 51, 'Regional Director', 183000, '2008/11/13', 6373, 's.decker@datatables.net', 'Edinburgh' ),
-		( 56, 'Michael', 'Bruce', 29, 'Javascript Developer', 183000, '2011/06/27', 5384, 'm.bruce@datatables.net', 'Singapore' ),
+		( 56, 'Chad', 'Bruce', 29, 'Javascript Developer', 183000, '2011/06/27', 5384, 'm.bruce@datatables.net', 'Singapore' ),
 		( 57, 'Donna', 'Snider', 27, 'Customer Support', 112000, '2011/01/25', 4226, 'd.snider@datatables.net', 'New York' );

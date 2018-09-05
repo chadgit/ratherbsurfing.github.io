@@ -181,7 +181,7 @@
             ]
         },
         {
-            "name": "Michael Silva",
+            "name": "Chad Collins",
             "hr": {
                 "position": "Marketing Designer",
                 "salary": "$198,500",
@@ -661,7 +661,7 @@
             ]
         },
         {
-            "name": "Michael Bruce",
+            "name": "Chad Bruce",
             "hr": {
                 "position": "Javascript Developer",
                 "salary": "$183,000",

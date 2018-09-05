@@ -121,7 +121,7 @@
             "$385,750"
         ],
         [
-            "Michael Silva",
+            "Chad Collins",
             "Marketing Designer",
             "London",
             "1581",
@@ -441,7 +441,7 @@
             "$183,000"
         ],
         [
-            "Michael Bruce",
+            "Chad Bruce",
             "Javascript Developer",
             "Singapore",
             "5384",

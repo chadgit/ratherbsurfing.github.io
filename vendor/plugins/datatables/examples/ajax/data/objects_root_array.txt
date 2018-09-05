@@ -120,7 +120,7 @@
         "extn": "1965"
     },
     {
-        "name": "Michael Silva",
+        "name": "Chad Collins",
         "position": "Marketing Designer",
         "salary": "$198,500",
         "start_date": "2012\/11\/27",
@@ -440,7 +440,7 @@
         "extn": "6373"
     },
     {
-        "name": "Michael Bruce",
+        "name": "Chad Bruce",
         "position": "Javascript Developer",
         "salary": "$183,000",
         "start_date": "2011\/06\/27",

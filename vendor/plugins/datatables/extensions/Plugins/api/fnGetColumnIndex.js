@@ -7,7 +7,7 @@
  *
  *  @name fnGetColumnIndex
  *  @summary Get the column index by searching the column titles
- *  @author [Michael Ross](http://www.rosstechassociates.com/)
+ *  @author [Chad Ross](http://www.rosstechassociates.com/)
  *
  *  @param {string} sCol Column title to search for
  *  @returns {integer} Column index, or -1 if not found

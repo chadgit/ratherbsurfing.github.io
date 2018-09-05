@@ -198,7 +198,7 @@
         {
             "name": [
                 "Silva",
-                "Michael"
+                "Chad"
             ],
             "hr": [
                 "Marketing Designer",
@@ -718,7 +718,7 @@
         {
             "name": [
                 "Bruce",
-                "Michael"
+                "Chad"
             ],
             "hr": [
                 "Javascript Developer",
