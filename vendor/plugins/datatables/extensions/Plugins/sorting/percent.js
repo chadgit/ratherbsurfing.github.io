@@ -8,7 +8,7 @@
  *  @name Percentage
  *  @summary Sort numeric data with a postfixed percentage symbol
  *  @deprecated
- *  @author [Jonathan Romley](http://jonathanromley.org/)
+ *  @author [Jonathan Romley](https://jonathanromley.org/)
  *
  *  @example
  *    $('#example').dataTable( {

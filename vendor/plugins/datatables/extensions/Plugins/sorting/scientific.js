@@ -4,7 +4,7 @@
  *
  *  @name Scientific notation sorting
  *  @summary Sort data which is written in exponential notation.
- *  @author [Nick Schurch](http://datatables.net/forums/profile/21757/nickschurch)
+ *  @author [Nick Schurch](https://datatables.net/forums/profile/21757/nickschurch)
  *
  *  @example
  *    $('#example').dataTable( {

@@ -13,7 +13,7 @@
  *
  *  @name fnReloadAjax
  *  @summary Reload the table's data from the Ajax source
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  *  @deprecated
  *
  *  @param {string} [sNewSource] URL to get the data from. If not give, the

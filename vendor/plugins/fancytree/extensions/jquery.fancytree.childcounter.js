@@ -1,7 +1,7 @@
 // Extending Fancytree
 // ===================
 //
-// See also the [live demo](http://wwwendt.de/tech/fancytree/demo/sample-ext-childcounter.html) of this code.
+// See also the [live demo](https://wwwendt.de/tech/fancytree/demo/sample-ext-childcounter.html) of this code.
 //
 // Every extension should have a comment header containing some information
 // about the author, copyright and licensing. Also a pointer to the latest
@@ -14,7 +14,7 @@
  * Add a child counter bubble to tree nodes.
  * (Extension module for jquery.fancytree.js: https://github.com/mar10/fancytree/)
  *
- * Copyright (c) 2014, Martin Wendt (http://wwWendt.de)
+ * Copyright (c) 2014, Martin Wendt (https://wwWendt.de)
  *
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
@@ -27,10 +27,10 @@
 
 ;(function($, undefined) {
 
-// Consider to use [strict mode](http://ejohn.org/blog/ecmascript-5-strict-mode-json-and-more/)
+// Consider to use [strict mode](https://ejohn.org/blog/ecmascript-5-strict-mode-json-and-more/)
 "use strict";
 
-// The [coding guidelines](http://contribute.jquery.org/style-guide/js/)
+// The [coding guidelines](https://contribute.jquery.org/style-guide/js/)
 // require jshint compliance.
 // But for this sample, we want to allow unused variables for demonstration purpose.
 
@@ -78,7 +78,7 @@ $.ui.fancytree.prototype.widgetMethod1 = function(arg1){
 // Register a Fancytree extension
 // ------------------------------
 // A full blown extension, extension is available for all trees and can be
-// enabled like so (see also the [live demo](http://wwwendt.de/tech/fancytree/demo/sample-ext-childcounter.html)):
+// enabled like so (see also the [live demo](https://wwwendt.de/tech/fancytree/demo/sample-ext-childcounter.html)):
 //
 //    <script src="../src/jquery.fancytree.js" type="text/javascript"></script>
 //    <script src="../src/jquery.fancytree.childcounter.js" type="text/javascript"></script>
@@ -98,7 +98,7 @@ $.ui.fancytree.prototype.widgetMethod1 = function(arg1){
 $.ui.fancytree.registerExtension({
 // Every extension must be registered by a unique name.
 	name: "childcounter",
-// Version information should be compliant with [semver](http://semver.org)
+// Version information should be compliant with [semver](https://semver.org)
 	version: "1.0.0",
 
 // Extension specific options and their defaults.
@@ -126,13 +126,13 @@ $.ui.fancytree.registerExtension({
 // **Override virtual methods for this extension.**
 //
 // Fancytree implements a number of 'hook methods', prefixed by 'node...' or 'tree...'.
-// with a `ctx` argument (see [EventData](http://www.wwwendt.de/tech/fancytree/doc/jsdoc/global.html#EventData)
+// with a `ctx` argument (see [EventData](https://www.wwwendt.de/tech/fancytree/doc/jsdoc/global.html#EventData)
 // for details) and an extended calling context:<br>
 // `this`       : the Fancytree instance<br>
 // `this._local`: the namespace that contains extension attributes and private methods (same as this.ext.EXTNAME)<br>
 // `this._super`: the virtual function that was overridden (member of previous extension or Fancytree)
 //
-// See also the [complete list of available hook functions](http://www.wwwendt.de/tech/fancytree/doc/jsdoc/Fancytree_Hooks.html).
+// See also the [complete list of available hook functions](https://www.wwwendt.de/tech/fancytree/doc/jsdoc/Fancytree_Hooks.html).
 
 	/* Init */
 // `treeInit` is triggered when a tree is initalized. We can set up classes or

@@ -10,7 +10,7 @@
  *  @name Currency
  *  @summary Sort data numerically when it has a leading currency symbol.
  *  @deprecated
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  *
  *  @example
  *    $('#example').dataTable( {

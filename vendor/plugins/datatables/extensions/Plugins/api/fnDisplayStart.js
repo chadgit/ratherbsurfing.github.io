@@ -4,7 +4,7 @@
  *
  *  @name fnDisplayStart
  *  @summary Change the table's paging display start.
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  *  @deprecated
  *
  *  @param {integer} iStart Display start index.

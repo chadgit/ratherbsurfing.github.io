@@ -1,7 +1,7 @@
 // Released under MIT license
 // Copyright (c) 2009-2010 Dominic Baggott
 // Copyright (c) 2009-2010 Ash Berlin
-// Copyright (c) 2011 Christoph Dorn <christoph@christophdorn.com> (http://www.christophdorn.com)
+// Copyright (c) 2011 Christoph Dorn <christoph@christophdorn.com> (https://www.christophdorn.com)
 
 (function( expose ) {
 
@@ -30,7 +30,7 @@
  *
  *  *TODO* Talk about this :) Its JsonML, but document the node names we use.
  *
- *  [JsonML]: http://jsonml.org/ "JSON Markup Language"
+ *  [JsonML]: https://jsonml.org/ "JSON Markup Language"
  **/
 var Markdown = expose.Markdown = function Markdown(dialect) {
   switch (typeof dialect) {

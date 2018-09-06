@@ -4,7 +4,7 @@
  *
  *  @summary Sort based on the checked state of checkboxes in a column
  *  @name Checkbox data source
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  */
 
 $.fn.dataTable.ext.order['dom-checkbox'] = function  ( settings, col )

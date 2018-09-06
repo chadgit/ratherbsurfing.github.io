@@ -4,9 +4,9 @@
  * Enable jQuery UI Menu as context menu for tree nodes.
  * (Extension module for jquery.fancytree.js: https://github.com/mar10/fancytree/)
  *
- * @see http://api.jqueryui.com/menu/
+ * @see https://api.jqueryui.com/menu/
  *
- * Copyright (c) 2014, Martin Wendt (http://wwWendt.de)
+ * Copyright (c) 2014, Martin Wendt (https://wwWendt.de)
  *
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo

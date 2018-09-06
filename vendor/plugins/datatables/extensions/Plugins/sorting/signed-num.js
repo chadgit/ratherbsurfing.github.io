@@ -5,7 +5,7 @@
  *
  *  @name Fully signed numbers sorting 
  *  @summary Sort data numerically with a leading `+` symbol (as well as `-`).
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  *
  *  @example
  *    $('#example').dataTable( {

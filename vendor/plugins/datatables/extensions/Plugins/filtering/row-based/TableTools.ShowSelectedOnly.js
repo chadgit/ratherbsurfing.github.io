@@ -5,7 +5,7 @@
  *  @name Show selected only
  *  @summary Show only selected rows, or all rows, through filtering
  *  @requires TableTools
- *  @author [Caleb Harrelson](http://stackoverflow.com/users/8507/phloopy)
+ *  @author [Caleb Harrelson](https://stackoverflow.com/users/8507/phloopy)
  *
  *  @example
  *  $('#example').dataTable({

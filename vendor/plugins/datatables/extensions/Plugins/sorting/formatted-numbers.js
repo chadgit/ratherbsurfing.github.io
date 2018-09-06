@@ -14,7 +14,7 @@
  *  @name Formatted numbers
  *  @summary Sort numbers which are displayed with thousand separators
  *  @deprecated
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  *
  *  @example
  *    $('#example').dataTable( {

@@ -4,9 +4,9 @@
  * Enable jQuery UI ThemeRoller styles.
  * (Extension module for jquery.fancytree.js: https://github.com/mar10/fancytree/)
  *
- * @see http://jqueryui.com/themeroller/
+ * @see https://jqueryui.com/themeroller/
  *
- * Copyright (c) 2014, Martin Wendt (http://wwWendt.de)
+ * Copyright (c) 2014, Martin Wendt (https://wwWendt.de)
  *
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo

@@ -5,9 +5,9 @@
  * PHP libraries for DataTables and DataTables Editor, utilising PHP 5.3+.
  *
  *  @author    SpryMedia
- *  @copyright 2012 SpryMedia ( http://sprymedia.co.uk )
- *  @license   http://editor.datatables.net/license DataTables Editor
- *  @link      http://editor.datatables.net
+ *  @copyright 2012 SpryMedia ( https://sprymedia.co.uk )
+ *  @license   https://editor.datatables.net/license DataTables Editor
+ *  @link      https://editor.datatables.net
  */
 
 namespace DataTables\Editor;
@@ -27,7 +27,7 @@ use
  * obtain joined information from the database.
  *
  * For an overview of how Join tables work, please refer to the 
- * {@link http://editor.datatables.net/manual/php/joins Editor manual} as it is
+ * {@link https://editor.datatables.net/manual/php/joins Editor manual} as it is
  * useful to understand how this class represents the links between tables, 
  * before fully getting to grips with it's API.
  *

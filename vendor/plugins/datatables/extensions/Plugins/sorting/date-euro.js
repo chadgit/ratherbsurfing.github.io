@@ -6,7 +6,7 @@
  *
  *  @name Date (dd/mm/YYY hh:ii:ss) 
  *  @summary Sort date / time in the format `dd/mm/YYY hh:ii:ss`
- *  @author [Ronan Guilloux](http://coolforest.net/)
+ *  @author [Ronan Guilloux](https://coolforest.net/)
  *
  *  @example
  *    $('#example').dataTable( {

@@ -3,7 +3,7 @@
  * SVG Stroke animation.
  *
  * https://github.com/camoconnell/lazy-line-painter
- * http://www.camoconnell.com
+ * https://www.camoconnell.com
  *
  * Licensed under the MIT license.
  *
@@ -278,7 +278,7 @@
         PRIVATE : SET PATH DATA
     */
     var getPath = function(data, i) {
-        var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        var path = document.createElementNS('https://www.w3.org/2000/svg', 'path');
         var $path = $(path);
         data.svg.append($path);
         $path.attr(getAttributes(data, data.svgData[i]));
@@ -310,10 +310,10 @@
         PRIVATE : GET STYLE DATA
     */
     var getSVGElement = function(attr) {
-        var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+        var svg = document.createElementNS("https://www.w3.org/2000/svg", "svg");
         svg.setAttributeNS(null, 'viewBox', attr.viewBox);
         svg.setAttributeNS(null, 'preserveAspectRatio', attr.preserveAspectRatio);
-        svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+        svg.setAttribute('xmlns', 'https://www.w3.org/2000/svg');
         return svg;
     };
 

@@ -5,7 +5,7 @@
  *  @summary Sorting based on the values of `dt-tag input` elements in a column.
  *  @name Input element data source
  *  @requires DataTables 1.10+
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  */
 
 $.fn.dataTable.ext.order['dom-text'] = function  ( settings, col )

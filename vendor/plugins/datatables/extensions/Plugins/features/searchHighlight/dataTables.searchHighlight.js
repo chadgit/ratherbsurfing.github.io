@@ -11,14 +11,14 @@
  * @contact     www.sprymedia.co.uk/contact
  * @copyright   Copyright 2014 SpryMedia Ltd.
  * 
- * License      MIT - http://datatables.net/license/mit
+ * License      MIT - https://datatables.net/license/mit
  *
  * This feature plug-in for DataTables will highlight search terms in the
  * DataTable as they are entered into the main search input element, or via the
  * `search()` API method.
  *
  * It depends upon the jQuery Highlight plug-in by Bartek Szopka:
- * 	  http://bartaz.github.io/sandbox.js/jquery.highlight.js
+ * 	  https://bartaz.github.io/sandbox.js/jquery.highlight.js
  *
  * Search highlighting in DataTables can be enabled by:
  *
@@ -30,7 +30,7 @@
  *   `$.fn.dataTable.defaults.searchHighlight = true`.
  *
  * For more detailed information please see:
- *     http://datatables.net/blog/2014-10-22
+ *     https://datatables.net/blog/2014-10-22
  */
 
 (function(window, document, $){

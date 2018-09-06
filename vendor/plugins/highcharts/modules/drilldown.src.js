@@ -4,7 +4,7 @@
  * Author: Torstein Honsi
  * License: MIT License
  *
- * Demo: http://jsfiddle.net/highcharts/Vf3yT/
+ * Demo: https://jsfiddle.net/highcharts/Vf3yT/
  */
 
 /*global HighchartsAdapter*/

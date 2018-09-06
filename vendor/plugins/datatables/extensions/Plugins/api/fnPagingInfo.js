@@ -10,7 +10,7 @@
  *
  *  @name fnPagingInfo
  *  @summary Get information about the paging state of the table
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  *  @deprecated
  *
  *  @example

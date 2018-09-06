@@ -1,7 +1,7 @@
 /*
  *  Bootstrap Duallistbox - v3.0.2
  *  A responsive dual listbox widget optimized for Twitter Bootstrap. It works on all modern browsers and on touch devices.
- *  http://www.virtuosoft.eu/code/bootstrap-duallistbox/
+ *  https://www.virtuosoft.eu/code/bootstrap-duallistbox/
  *
  *  Made by István Ujj-Mészáros
  *  Under Apache License v2.0 License
@@ -32,7 +32,7 @@
       filterOnValues: false                                                               // filter by selector's values, boolean
     },
     // Selections are invisible on android if the containing select is styled with CSS
-    // http://code.google.com/p/android/issues/detail?id=16922
+    // https://code.google.com/p/android/issues/detail?id=16922
     isBuggyAndroid = /android/i.test(navigator.userAgent.toLowerCase());
 
   // The actual plugin constructor

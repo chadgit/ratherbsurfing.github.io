@@ -1,6 +1,6 @@
 'use strict'; 
 /*! main.js - v0.1.1
-* http://admindesigns.com/
+* https://admindesigns.com/
 * Copyright (c) 2015 Admin Designs;*/
 
 

@@ -5,7 +5,7 @@
  *
  *  @name Persian
  *  @summary Sort Persian strings alphabetically
- *  @author [Afshin Mehrabani](http://www.afshinblog.com/)
+ *  @author [Afshin Mehrabani](https://www.afshinblog.com/)
  *
  *  @example
  *    $('#example').dataTable( {

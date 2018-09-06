@@ -258,7 +258,7 @@ $.extend(Monthpicker.prototype, {
 			this._disableMonthpicker( target );
 		}
 		// Set display:block in place of inst.dpDiv.show() which won't work on disconnected elements
-		// http://bugs.jqueryui.com/ticket/7552 - A Monthpicker created on a detached div has zero height
+		// https://bugs.jqueryui.com/ticket/7552 - A Monthpicker created on a detached div has zero height
 		inst.dpDiv.css( "display", "block" );
 	},
 

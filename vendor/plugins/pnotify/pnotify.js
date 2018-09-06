@@ -793,7 +793,7 @@
 		}
 	});
 	/*
-	 * uses icons from http://fontawesome.io/
+	 * uses icons from https://fontawesome.io/
 	 * version 4.0.3
 	 */
 	PNotify.styling.fontawesome = $.extend({}, PNotify.styling.bootstrap3);
@@ -1149,7 +1149,7 @@
 		icon: null,
 		// Using a tag lets you update an existing notice, or keep from duplicating notices between tabs.
 		// If you leave tag null, one will be generated, facilitating the "update" function.
-		// see: http://www.w3.org/TR/notifications/#tags-example
+		// see: https://www.w3.org/TR/notifications/#tags-example
 		tag: null
 	};
 	PNotify.prototype.modules.desktop = {
@@ -1157,7 +1157,7 @@
 		icon: null,
 		genNotice: function(notice, options){
 			if (options.icon === null) {
-				this.icon = "http://sciactive.com/pnotify/includes/desktop/"+notice.options.type+".png";
+				this.icon = "https://sciactive.com/pnotify/includes/desktop/"+notice.options.type+".png";
 			} else if (options.icon === false) {
 				this.icon = null;
 			} else {

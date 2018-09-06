@@ -1,12 +1,12 @@
 /*!
  * jQuery Validation Plugin 1.11.1
  *
- * http://bassistance.de/jquery-plugins/jquery-plugin-validation/
- * http://docs.jquery.com/Plugins/Validation
+ * https://bassistance.de/jquery-plugins/jquery-plugin-validation/
+ * https://docs.jquery.com/Plugins/Validation
  *
  * Copyright 2013 Jörn Zaefferer
  * Released under the MIT license:
- *   http://www.opensource.org/licenses/mit-license.php
+ *   https://www.opensource.org/licenses/mit-license.php
  */
 
 (function() {
@@ -387,7 +387,7 @@ jQuery.validator.addMethod('phonesUK', function(phone_number, element) {
 //  Extract $1 and set $prefix to '+44<space>' if $1 is '44', otherwise set $prefix to '0'
 //  Extract $2 and remove hyphens, spaces and parentheses. Phone number is combined $prefix and $2.
 // A number of very detailed GB telephone number RegEx patterns can also be found at:
-// http://www.aa-asterisk.org.uk/index.php/Regular_Expressions_for_Validating_and_Formatting_GB_Telephone_Numbers
+// https://www.aa-asterisk.org.uk/index.php/Regular_Expressions_for_Validating_and_Formatting_GB_Telephone_Numbers
 
 // Matches UK postcode. Does not match to UK Channel Islands that have their own postcodes (non standard UK)
 jQuery.validator.addMethod('postcodeUK', function(value, element) {
@@ -410,7 +410,7 @@ jQuery.validator.addMethod("url2", function(value, element, param) {
 }, jQuery.validator.messages.url);
 
 // NOTICE: Modified version of Castle.Components.Validator.CreditCardValidator
-// Redistributed under the the Apache License 2.0 at http://www.apache.org/licenses/LICENSE-2.0
+// Redistributed under the the Apache License 2.0 at https://www.apache.org/licenses/LICENSE-2.0
 // Valid Types: mastercard, visa, amex, dinersclub, enroute, discover, jcb, unknown, all (overrides all other settings)
 jQuery.validator.addMethod("creditcardtypes", function(value, element, param) {
 	if (/[^0-9\-]+/.test(value)) {
@@ -610,7 +610,7 @@ jQuery.validator.addMethod("accept", function(value, element, param) {
 	return true;
 }, jQuery.format("Please enter a value with a valid mimetype."));
 
-// Older "accept" file extension method. Old docs: http://docs.jquery.com/Plugins/Validation/Methods/accept
+// Older "accept" file extension method. Old docs: https://docs.jquery.com/Plugins/Validation/Methods/accept
 jQuery.validator.addMethod("extension", function(value, element, param) {
 	param = typeof param === "string" ? param.replace(/,/g, '|') : "png|jpe?g|gif";
 	return this.optional(element) || value.match(new RegExp(".(" + param + ")$", "i"));

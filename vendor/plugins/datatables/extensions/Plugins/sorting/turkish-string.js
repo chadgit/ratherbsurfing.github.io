@@ -5,7 +5,7 @@
  *  
  *  @name Turkish
  *  @summary Sort Turkish characters
- *  @author [Yuksel Beyti](http://yukselbeyti.com)
+ *  @author [Yuksel Beyti](https://yukselbeyti.com)
  *
  *  @example
  *    $('#example').dataTable({

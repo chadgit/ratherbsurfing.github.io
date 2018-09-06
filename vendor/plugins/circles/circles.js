@@ -152,8 +152,8 @@
 
     _generateSvg: function() {
 
-  	  this._svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-  	  this._svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+  	  this._svg = document.createElementNS('https://www.w3.org/2000/svg', 'svg');
+  	  this._svg.setAttribute('xmlns', 'https://www.w3.org/2000/svg');
   	  this._svg.setAttribute('width', this._svgSize);
   	  this._svg.setAttribute('height', this._svgSize);
 
@@ -165,7 +165,7 @@
     },
 
     _generatePath: function(percentage, open, color) {
-    	var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    	var path = document.createElementNS('https://www.w3.org/2000/svg', 'path');
   		path.setAttribute('fill', 'transparent');
   		path.setAttribute('stroke', color);
   		path.setAttribute('stroke-width', this._strokeWidth);

@@ -6,7 +6,7 @@
  *
  *  @name fnFindCellRowNodes
  *  @summary Search for data, returning row nodes
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  *
  *  @param {string} sSearch Data to search for
  *  @param {integer} [iColumn=null] Limit search to this column

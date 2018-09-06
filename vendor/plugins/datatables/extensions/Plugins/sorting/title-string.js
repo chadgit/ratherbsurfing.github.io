@@ -10,7 +10,7 @@
  * 
  *  @name Hidden title string sorting
  *  @summary Sort data as a string based on an attribute on an empty element.
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  *  @deprecated
  *
  *  @example

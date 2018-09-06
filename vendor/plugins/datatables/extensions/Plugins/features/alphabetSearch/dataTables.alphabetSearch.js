@@ -12,10 +12,10 @@
  * @contact     www.sprymedia.co.uk/contact
  * @copyright   Copyright 2014 SpryMedia Ltd.
  * 
- * License      MIT - http://datatables.net/license/mit
+ * License      MIT - https://datatables.net/license/mit
  *
  * For more detailed information please see:
- *     http://datatables.net/blog/2014-09-22
+ *     https://datatables.net/blog/2014-09-22
  */
 (function(){
 

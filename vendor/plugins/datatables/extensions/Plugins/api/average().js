@@ -5,7 +5,7 @@
  *
  *  @name average()
  *  @summary Average the values in a data set.
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  *  @requires DataTables 1.10+
  *
  * @returns {Number} Calculated average

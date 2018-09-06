@@ -662,7 +662,7 @@ times.
 
 If the Date object has a strftime property (and it is a function), it
 will be used instead of the built-in formatter. Thus you can include
-a strftime library such as http://hacks.bluesmoon.info/strftime/ for
+a strftime library such as https://hacks.bluesmoon.info/strftime/ for
 more powerful date/time formatting.
 
 If everything else fails, you can control the formatting by specifying

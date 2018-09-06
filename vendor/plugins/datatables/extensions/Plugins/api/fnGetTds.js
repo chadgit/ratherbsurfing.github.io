@@ -9,7 +9,7 @@
  *
  *  @name fnGetTds
  *  @summary Get the `dt-tag td` elements for a row
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  *  @deprecated
  *
  *  @param {node} mTr `dt-tag tr` element to get the `dt-tag td` of

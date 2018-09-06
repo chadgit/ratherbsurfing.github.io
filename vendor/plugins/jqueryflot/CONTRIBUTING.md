@@ -7,7 +7,7 @@ work for us, and a faster and better response.
 
 Issues are not a way to ask general questions about Flot. If you see unexpected
 behavior but are not 100% certain that it is a bug, please try posting to the
-[forum](http://groups.google.com/group/flot-graphs) first, and confirm that
+[forum](https://groups.google.com/group/flot-graphs) first, and confirm that
 what you see is really a Flot problem before creating a new issue for it.
 
 When reporting a bug, please include a working demonstration of the problem, if
@@ -40,7 +40,7 @@ To make merging as easy as possible, please keep these rules in mind:
 
 ### Flot Style Guidelines ###
 
-Flot follows the [jQuery Core Style Guidelines](http://docs.jquery.com/JQuery_Core_Style_Guidelines),
+Flot follows the [jQuery Core Style Guidelines](https://docs.jquery.com/JQuery_Core_Style_Guidelines),
 with the following updates and exceptions:
 
 #### Spacing ####

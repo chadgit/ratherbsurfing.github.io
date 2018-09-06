@@ -11,7 +11,7 @@
  *  @name Numbers with HTML
  *  @summary Detect data which is a mix of HTML and numeric data.
  *  @deprecated
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  */
 
 jQuery.fn.dataTableExt.aTypes.unshift( function ( sData )

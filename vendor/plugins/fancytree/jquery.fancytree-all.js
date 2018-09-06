@@ -3,7 +3,7 @@
  * Dynamic tree view control, with support for lazy loading of branches.
  * https://github.com/mar10/fancytree/
  *
- * Copyright (c) 2006-2014, Martin Wendt (http://wwWendt.de)
+ * Copyright (c) 2006-2014, Martin Wendt (https://wwWendt.de)
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
  *
@@ -39,7 +39,7 @@ function _assert(cond, msg){
 	}
 }
 
-_assert($.ui, "Fancytree requires jQuery UI (http://jqueryui.com)");
+_assert($.ui, "Fancytree requires jQuery UI (https://jqueryui.com)");
 
 function consoleApply(method, args){
 	var i, s,
@@ -66,7 +66,7 @@ function _isNode(x){
 
 /** Return true if dotted version string is equal or higher than requested version.
  *
- * See http://jsfiddle.net/mar10/FjSAN/
+ * See https://jsfiddle.net/mar10/FjSAN/
  */
 function isVersionAtLeast(dottedVersion, major, minor, patch){
 	var i, v, t,
@@ -178,7 +178,7 @@ function _getElementDataAsDict($el){
 	delete d.fancytree; // added to container by widget factory
 	if( json ) {
 		delete d.json;
-		// <li data-json='...'> is already returned as object (http://api.jquery.com/data/#data-html5)
+		// <li data-json='...'> is already returned as object (https://api.jquery.com/data/#data-html5)
 		d = $.extend(d, json);
 	}
 	return d;
@@ -1814,7 +1814,7 @@ function Fancytree(widget) {
 		this.options.debugLevel = FT.debugLevel;
 	}
 	// Add container to the TAB chain
-	// See http://www.w3.org/TR/wai-aria-practices/#focus_activedescendant
+	// See https://www.w3.org/TR/wai-aria-practices/#focus_activedescendant
 	this.$container.attr("tabindex", this.options.tabbable ? "0" : "-1");
 	if(this.options.aria){
 		this.$container
@@ -2695,7 +2695,7 @@ $.extend(Fancytree.prototype,
 	/** [Not Implemented]  */
 	nodeLoadKeyPath: function(ctx, keyPathList) {
 		// TODO: implement and improve
-		// http://code.google.com/p/dynatree/issues/detail?id=222
+		// https://code.google.com/p/dynatree/issues/detail?id=222
 	},
 	/**
 	 * Remove a single direct child of ctx.node.
@@ -3709,7 +3709,7 @@ $.extend(Fancytree.prototype,
  */
 
 /**
- * The plugin (derrived from <a href=" http://api.jqueryui.com/jQuery.widget/">jQuery.Widget</a>).<br>
+ * The plugin (derrived from <a href=" https://api.jqueryui.com/jQuery.widget/">jQuery.Widget</a>).<br>
  * This constructor is not called directly. Use `$(selector).fancytree({})`
  * to initialize the plugin instead.<br>
  * <pre class="sh_javascript sunlight-highlight-javascript">// Access widget methods and members:
@@ -4037,7 +4037,7 @@ $.extend($.ui.fancytree,
 	_FancytreeNodeClass: FancytreeNode,
 	/* Feature checks to provide backwards compatibility */
 	jquerySupports: {
-		// http://jqueryui.com/upgrade-guide/1.9/#deprecated-offset-option-merged-into-my-and-at
+		// https://jqueryui.com/upgrade-guide/1.9/#deprecated-offset-option-merged-into-my-and-at
 		positionMyOfs: isVersionAtLeast($.ui.version, 1, 9)
 		},
 	/** Throw an error if condition fails (debug method).
@@ -4121,7 +4121,7 @@ $.extend($.ui.fancytree,
 		var tcn = event && event.target ? event.target.className : "",
 			res = {node: this.getNode(event.target), type: undefined};
 		// We use a fast version of $(res.node).hasClass()
-		// See http://jsperf.com/test-for-classname/2
+		// See https://jsperf.com/test-for-classname/2
 		if( /\bfancytree-title\b/.test(tcn) ){
 			res.type = "title";
 		}else if( /\bfancytree-expander\b/.test(tcn) ){
@@ -4300,7 +4300,7 @@ $.extend($.ui.fancytree,
 // Extending Fancytree
 // ===================
 //
-// See also the [live demo](http://wwwendt.de/tech/fancytree/demo/sample-ext-childcounter.html) of this code.
+// See also the [live demo](https://wwwendt.de/tech/fancytree/demo/sample-ext-childcounter.html) of this code.
 //
 // Every extension should have a comment header containing some information
 // about the author, copyright and licensing. Also a pointer to the latest
@@ -4313,7 +4313,7 @@ $.extend($.ui.fancytree,
  * Add a child counter bubble to tree nodes.
  * (Extension module for jquery.fancytree.js: https://github.com/mar10/fancytree/)
  *
- * Copyright (c) 2014, Martin Wendt (http://wwWendt.de)
+ * Copyright (c) 2014, Martin Wendt (https://wwWendt.de)
  *
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
@@ -4326,10 +4326,10 @@ $.extend($.ui.fancytree,
 
 ;(function($, undefined) {
 
-// Consider to use [strict mode](http://ejohn.org/blog/ecmascript-5-strict-mode-json-and-more/)
+// Consider to use [strict mode](https://ejohn.org/blog/ecmascript-5-strict-mode-json-and-more/)
 "use strict";
 
-// The [coding guidelines](http://contribute.jquery.org/style-guide/js/)
+// The [coding guidelines](https://contribute.jquery.org/style-guide/js/)
 // require jshint compliance.
 // But for this sample, we want to allow unused variables for demonstration purpose.
 
@@ -4377,7 +4377,7 @@ $.ui.fancytree.prototype.widgetMethod1 = function(arg1){
 // Register a Fancytree extension
 // ------------------------------
 // A full blown extension, extension is available for all trees and can be
-// enabled like so (see also the [live demo](http://wwwendt.de/tech/fancytree/demo/sample-ext-childcounter.html)):
+// enabled like so (see also the [live demo](https://wwwendt.de/tech/fancytree/demo/sample-ext-childcounter.html)):
 //
 //    <script src="../src/jquery.fancytree.js" type="text/javascript"></script>
 //    <script src="../src/jquery.fancytree.childcounter.js" type="text/javascript"></script>
@@ -4397,7 +4397,7 @@ $.ui.fancytree.prototype.widgetMethod1 = function(arg1){
 $.ui.fancytree.registerExtension({
 // Every extension must be registered by a unique name.
 	name: "childcounter",
-// Version information should be compliant with [semver](http://semver.org)
+// Version information should be compliant with [semver](https://semver.org)
 	version: "1.0.0",
 
 // Extension specific options and their defaults.
@@ -4425,13 +4425,13 @@ $.ui.fancytree.registerExtension({
 // **Override virtual methods for this extension.**
 //
 // Fancytree implements a number of 'hook methods', prefixed by 'node...' or 'tree...'.
-// with a `ctx` argument (see [EventData](http://www.wwwendt.de/tech/fancytree/doc/jsdoc/global.html#EventData)
+// with a `ctx` argument (see [EventData](https://www.wwwendt.de/tech/fancytree/doc/jsdoc/global.html#EventData)
 // for details) and an extended calling context:<br>
 // `this`       : the Fancytree instance<br>
 // `this._local`: the namespace that contains extension attributes and private methods (same as this.ext.EXTNAME)<br>
 // `this._super`: the virtual function that was overridden (member of previous extension or Fancytree)
 //
-// See also the [complete list of available hook functions](http://www.wwwendt.de/tech/fancytree/doc/jsdoc/Fancytree_Hooks.html).
+// See also the [complete list of available hook functions](https://www.wwwendt.de/tech/fancytree/doc/jsdoc/Fancytree_Hooks.html).
 
 	/* Init */
 // `treeInit` is triggered when a tree is initalized. We can set up classes or
@@ -4489,7 +4489,7 @@ $.ui.fancytree.registerExtension({
  * Support faster lookup of nodes by key and shared ref-ids.
  * (Extension module for jquery.fancytree.js: https://github.com/mar10/fancytree/)
  *
- * Copyright (c) 2014, Martin Wendt (http://wwWendt.de)
+ * Copyright (c) 2014, Martin Wendt (https://wwWendt.de)
  *
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
@@ -4531,7 +4531,7 @@ function _removeArrayMember(arr, elem) {
 // /**
 //  * Calculate a 32 bit FNV-1a hash
 //  * Found here: https://gist.github.com/vaiorabbit/5657561
-//  * Ref.: http://isthe.com/chongo/tech/comp/fnv/
+//  * Ref.: https://isthe.com/chongo/tech/comp/fnv/
 //  *
 //  * @param {string} str the input value
 //  * @param {boolean} [asString=false] set to true to return the hash value as
@@ -4560,9 +4560,9 @@ function _removeArrayMember(arr, elem) {
  * JS Implementation of MurmurHash3 (r136) (as of May 20, 2011)
  *
  * @author <a href="mailto:gary.court@gmail.com">Gary Court</a>
- * @see http://github.com/garycourt/murmurhash-js
+ * @see https://github.com/garycourt/murmurhash-js
  * @author <a href="mailto:aappleby@gmail.com">Austin Appleby</a>
- * @see http://sites.google.com/site/murmurhash/
+ * @see https://sites.google.com/site/murmurhash/
  *
  * @param {string} key ASCII only
  * @param {boolean} [asString=false]
@@ -4941,7 +4941,7 @@ $.ui.fancytree.registerExtension({
  * Drag-and-drop support.
  * (Extension module for jquery.fancytree.js: https://github.com/mar10/fancytree/)
  *
- * Copyright (c) 2014, Martin Wendt (http://wwWendt.de)
+ * Copyright (c) 2014, Martin Wendt (https://wwWendt.de)
  *
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
@@ -5449,7 +5449,7 @@ $.ui.fancytree.registerExtension({
 				node.scheduleAction("expand", dnd.autoExpandMS);
 			}
 			if(hitMode && dnd.dragOver){
-				// TODO: http://code.google.com/p/dynatree/source/detail?r=625
+				// TODO: https://code.google.com/p/dynatree/source/detail?r=625
 				ctx.hitMode = hitMode;
 				res = dnd.dragOver(node, ctx);
 			}
@@ -5505,7 +5505,7 @@ $.ui.fancytree.registerExtension({
  * Make node titles editable.
  * (Extension module for jquery.fancytree.js: https://github.com/mar10/fancytree/)
  *
- * Copyright (c) 2014, Martin Wendt (http://wwWendt.de)
+ * Copyright (c) 2014, Martin Wendt (https://wwWendt.de)
  *
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
@@ -5852,7 +5852,7 @@ $.ui.fancytree.registerExtension({
  * Remove or highlight tree nodes, based on a filter.
  * (Extension module for jquery.fancytree.js: https://github.com/mar10/fancytree/)
  *
- * Copyright (c) 2014, Martin Wendt (http://wwWendt.de)
+ * Copyright (c) 2014, Martin Wendt (https://wwWendt.de)
  *
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
@@ -6027,7 +6027,7 @@ $.ui.fancytree.registerExtension({
  * Use glyph fonts as instead of icon sprites.
  * (Extension module for jquery.fancytree.js: https://github.com/mar10/fancytree/)
  *
- * Copyright (c) 2014, Martin Wendt (http://wwWendt.de)
+ * Copyright (c) 2014, Martin Wendt (https://wwWendt.de)
  *
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
@@ -6160,7 +6160,7 @@ $.ui.fancytree.registerExtension({
  * Support keyboard navigation for trees with embedded input controls.
  * (Extension module for jquery.fancytree.js: https://github.com/mar10/fancytree/)
  *
- * Copyright (c) 2014, Martin Wendt (http://wwWendt.de)
+ * Copyright (c) 2014, Martin Wendt (https://wwWendt.de)
  *
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
@@ -6362,7 +6362,7 @@ $.ui.fancytree.registerExtension({
  *
  * @depends: jquery.cookie.js
  *
- * Copyright (c) 2014, Martin Wendt (http://wwWendt.de)
+ * Copyright (c) 2014, Martin Wendt (https://wwWendt.de)
  *
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
@@ -6717,7 +6717,7 @@ $.ui.fancytree.registerExtension({
  * Render tree as table (aka 'treegrid', 'tabletree').
  * (Extension module for jquery.fancytree.js: https://github.com/mar10/fancytree/)
  *
- * Copyright (c) 2014, Martin Wendt (http://wwWendt.de)
+ * Copyright (c) 2014, Martin Wendt (https://wwWendt.de)
  *
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
@@ -7077,9 +7077,9 @@ $.ui.fancytree.registerExtension({
  * Enable jQuery UI ThemeRoller styles.
  * (Extension module for jquery.fancytree.js: https://github.com/mar10/fancytree/)
  *
- * @see http://jqueryui.com/themeroller/
+ * @see https://jqueryui.com/themeroller/
  *
- * Copyright (c) 2014, Martin Wendt (http://wwWendt.de)
+ * Copyright (c) 2014, Martin Wendt (https://wwWendt.de)
  *
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo

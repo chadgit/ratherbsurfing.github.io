@@ -4,7 +4,7 @@
 // Dual licensed under the MIT and GPL licenses.
 // ----------------------------------------------------------------------------
 // Copyright (C) 2007-2012 Jay Salvat
-// http://markitup.jaysalvat.com/
+// https://markitup.jaysalvat.com/
 // ----------------------------------------------------------------------------
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal

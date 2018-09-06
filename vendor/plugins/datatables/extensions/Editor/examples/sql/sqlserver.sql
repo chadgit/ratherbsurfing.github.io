@@ -3,7 +3,7 @@
 -- SQL Server tables used to run the Editor examples.
 --
 -- For more information about how the client and server-sides interact, please
--- refer to the Editor documentation: http://editor.datatables.net/manual .
+-- refer to the Editor documentation: https://editor.datatables.net/manual .
 --
 --
 

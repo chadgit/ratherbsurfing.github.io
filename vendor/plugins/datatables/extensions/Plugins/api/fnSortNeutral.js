@@ -7,7 +7,7 @@
  *
  *  @name fnSortNeutral
  *  @summary Change ordering of the table to its data load order
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  *
  *  @example
  *    $(document).ready(function() {

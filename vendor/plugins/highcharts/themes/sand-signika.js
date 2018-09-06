@@ -5,7 +5,7 @@
 
 // Load the fonts
 Highcharts.createElement('link', {
-	href: 'http://fonts.googleapis.com/css?family=Signika:400,700',
+	href: 'https://fonts.googleapis.com/css?family=Signika:400,700',
 	rel: 'stylesheet',
 	type: 'text/css'
 }, null, document.getElementsByTagName('head')[0]);
@@ -13,7 +13,7 @@ Highcharts.createElement('link', {
 // Add the background image to the container
 Highcharts.wrap(Highcharts.Chart.prototype, 'getContainer', function (proceed) {
 	proceed.call(this);
-	this.container.style.background = 'url(http://www.highcharts.com/samples/graphics/sand.png)';
+	this.container.style.background = 'url(https://www.highcharts.com/samples/graphics/sand.png)';
 });
 
 

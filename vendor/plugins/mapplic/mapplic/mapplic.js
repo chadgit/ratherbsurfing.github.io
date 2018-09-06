@@ -1,6 +1,6 @@
 /**
  * Mapplic - Custom Interactive Map Plugin by @sekler
- * http://www.mapplic.com 
+ * https://www.mapplic.com 
  */
 
 (function($) {

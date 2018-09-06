@@ -17,7 +17,7 @@
  *
  *  @name fnFilterClear
  *  @summary Remove all column and global filters applied to a table
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  *  @deprecated
  *
  *  @example

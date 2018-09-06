@@ -4,7 +4,7 @@
  *
  *  @name fnDisplayRow
  *  @summary Shift the table's paging to display a given `dt-tag tr` element
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  *
  *  @param {node} nRow Row to display
  *

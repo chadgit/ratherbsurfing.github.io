@@ -10,7 +10,7 @@
  *
  *  @name fnGetAdjacentTr
  *  @summary Get the adjacent `dt-tag tr` element for a row.
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  *
  *  @param {node} nTr `dt-tag tr` element to get the adjacent element of
  *  @param {boolean} [bNext=true] Get the next (`true`), or previous (`false`)

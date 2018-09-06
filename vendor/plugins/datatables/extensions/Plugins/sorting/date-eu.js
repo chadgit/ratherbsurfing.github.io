@@ -5,7 +5,7 @@
  *
  *  @name Date (dd . mm[ . YYYY]) 
  *  @summary Sort dates in the format `dd/mm/YY[YY]` (with optional spaces)
- *  @author [Robert Sedovšek](http://galjot.si/)
+ *  @author [Robert Sedovšek](https://galjot.si/)
  *
  *  @example
  *    $('#example').dataTable( {

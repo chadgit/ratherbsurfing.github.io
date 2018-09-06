@@ -16,9 +16,9 @@ All logos and trademarks in social icons are the property of the respective trad
 
 CONTACT:
 -------------------
-Web: http://glyphicons.com/
+Web: https://glyphicons.com/
 Email: glyphicons@gmail.com
-Twitter: http://twitter.com/glyphicons
+Twitter: https://twitter.com/glyphicons
 
 NOTE:
 ------------------- 

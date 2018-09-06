@@ -14,7 +14,7 @@
  *
  *  @name page.JumpToData()
  *  @summary Jump to a page by searching for data from a column
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  *  @requires DataTables 1.10+
  *
  *  @param {*} data Data to search for

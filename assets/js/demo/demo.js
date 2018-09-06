@@ -1,6 +1,6 @@
 'use strict';
 /*! main.js - v0.1.1
- * http://admindesigns.com/
+ * https://admindesigns.com/
  * Copyright (c) 2015 Admin Designs;*/
 
 /* Demo theme functions. Required for
@@ -64,11 +64,11 @@ var Demo = function() {
       $("<link/>", {
         rel: "stylesheet",
         type: "text/css",
-        href: "http://admindesigns.com/demos/admindesigns/theme/vendor/plugins/highlight/styles/github.css"
+        href: "https://admindesigns.com/demos/admindesigns/theme/vendor/plugins/highlight/styles/github.css"
       }).appendTo("head");
 
       // load highlight.js plugin script from admindesigns.com
-      $.getScript("http://admindesigns.com/demos/admindesigns/theme/vendor/plugins/highlight/highlight.pack.js");
+      $.getScript("https://admindesigns.com/demos/admindesigns/theme/vendor/plugins/highlight/highlight.pack.js");
 
       // Define Source code modal
       var modalSource = '<div class="modal fade" id="source-modal" tabindex="-1" role="dialog">  ' +

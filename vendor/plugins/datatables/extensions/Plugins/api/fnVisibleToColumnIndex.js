@@ -10,7 +10,7 @@
  *
  *  @name fnVisibleToColumnIndex
  *  @summary Convert a column visible index to a data index.
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  *  @deprecated
  *
  *  @param {integer} iMatch Column data index to convert to data index

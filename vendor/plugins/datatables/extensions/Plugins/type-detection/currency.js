@@ -11,7 +11,7 @@
  *  @name Currency
  *  @summary Detect data of numeric type with a leading currency symbol.
  *  @deprecated
- *  @author [Allan Jardine](http://sprymedia.co.uk), Nuno Gomes
+ *  @author [Allan Jardine](https://sprymedia.co.uk), Nuno Gomes
  */
 
 (function(){

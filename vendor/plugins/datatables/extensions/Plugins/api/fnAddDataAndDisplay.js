@@ -10,7 +10,7 @@
  *
  *  @name fnAddDataAndDisplay
  *  @summary Add data and shift the paging to display it immediately
- *  @author [Allan Jardine](http://sprymedia.co.uk)
+ *  @author [Allan Jardine](https://sprymedia.co.uk)
  *
  *  @param {data} aData Data to add to the table
  *  @returns {object} Object with `nTr` and `iPos` parameters, where the former

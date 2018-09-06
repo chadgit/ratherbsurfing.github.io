@@ -9,7 +9,7 @@
  *
  *  @name fnGetColumnData
  *  @summary Get the data from a column
- *  @author [Benedikt Forchhammer](http://mind2.de)
+ *  @author [Benedikt Forchhammer](https://mind2.de)
  *  @deprecated
  *
  *  @param {integer} iColumn Column to get data from

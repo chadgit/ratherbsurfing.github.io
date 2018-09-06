@@ -1,11 +1,11 @@
 /*!
  * Globalize
  *
- * http://github.com/jquery/globalize
+ * https://github.com/jquery/globalize
  *
  * Copyright Software Freedom Conservancy, Inc.
  * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
+ * https://jquery.org/license
  */
 
 (function( window, undefined ) {
@@ -235,7 +235,7 @@ Globalize.cultures[ "default" ] = {
 			monthsGenitive:
 				Same as months but used when the day preceeds the month.
 				Omit if the culture has no genitive distinction in month names.
-				For an explaination of genitive months, see http://blogs.msdn.com/michkap/archive/2004/12/25/332259.aspx
+				For an explaination of genitive months, see https://blogs.msdn.com/michkap/archive/2004/12/25/332259.aspx
 			convert:
 				Allows for the support of non-gregorian based calendars. This convert object is used to
 				to convert a date to and from a gregorian calendar date to handle parsing and formatting.
