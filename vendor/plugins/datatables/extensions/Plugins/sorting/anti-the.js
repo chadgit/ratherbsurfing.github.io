@@ -6,7 +6,7 @@
  *
  *  @name Anti-"the"
  *  @summary Sort with the prefixed word `dt-string The` removed, if present
- *  @author [Allan Jardine](https://sprymedia.co.uk)
+ *  @author [Allan Jardine](http://sprymedia.co.uk)
  *
  *  @example
  *    $('#example').dataTable( {

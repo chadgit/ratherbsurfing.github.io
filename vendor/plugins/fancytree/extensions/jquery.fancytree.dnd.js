@@ -4,7 +4,7 @@
  * Drag-and-drop support.
  * (Extension module for jquery.fancytree.js: https://github.com/mar10/fancytree/)
  *
- * Copyright (c) 2014, Martin Wendt (https://wwWendt.de)
+ * Copyright (c) 2014, Martin Wendt (http://wwWendt.de)
  *
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
@@ -512,7 +512,7 @@ $.ui.fancytree.registerExtension({
 				node.scheduleAction("expand", dnd.autoExpandMS);
 			}
 			if(hitMode && dnd.dragOver){
-				// TODO: https://code.google.com/p/dynatree/source/detail?r=625
+				// TODO: http://code.google.com/p/dynatree/source/detail?r=625
 				ctx.hitMode = hitMode;
 				res = dnd.dragOver(node, ctx);
 			}

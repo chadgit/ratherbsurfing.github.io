@@ -1,6 +1,6 @@
 /* ========================================================================
  * bootstrap-tour - v0.10.1
- * https://bootstraptour.com
+ * http://bootstraptour.com
  * ========================================================================
  * Copyright 2012-2013 Ulrich Sossou
  *
@@ -9,7 +9,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *     https://www.apache.org/licenses/LICENSE-2.0
+ *     http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -464,7 +464,7 @@
     };
 
     Tour.prototype._isOrphan = function(step) {
-      return (step.element == null) || !$(step.element).length || $(step.element).is(':hidden') && ($(step.element)[0].namespaceURI !== 'https://www.w3.org/2000/svg');
+      return (step.element == null) || !$(step.element).length || $(step.element).is(':hidden') && ($(step.element)[0].namespaceURI !== 'http://www.w3.org/2000/svg');
     };
 
     Tour.prototype._isLast = function() {

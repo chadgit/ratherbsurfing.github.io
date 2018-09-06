@@ -5,7 +5,7 @@
  *
  *  @summary Filter the data between two numbers (inclusive)
  *  @name Range filtering (numbers)
- *  @author [Allan Jardine](https://sprymedia.co.uk)
+ *  @author [Allan Jardine](http://sprymedia.co.uk)
  *
  *  @example
  *    $(document).ready(function() {

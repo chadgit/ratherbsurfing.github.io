@@ -4,7 +4,7 @@
  *
  *  @name ExtJS style
  *  @summary Pagination in the styling of ExtJS
- *  @author [Zach Curtis](https://zachariahtimothy.wordpress.com/)
+ *  @author [Zach Curtis](http://zachariahtimothy.wordpress.com/)
  *
  *  @example
  *    $(document).ready(function() {

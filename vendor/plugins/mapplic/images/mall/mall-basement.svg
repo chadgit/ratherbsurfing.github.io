@@ -1,4 +1,4 @@
-<svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" viewBox="0 0 800 600">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 600">
 	<rect id="background" fill="#596267" width="800" height="600"/>
 	<g id="fund">
 		<path id="shadow" display="none" fill="#E4E4E4" d="M425.5,498l54-54h36l36,36h63l27-27v-63l-90-90c0,0,0-54,0-99s-36-72-72-72h-9

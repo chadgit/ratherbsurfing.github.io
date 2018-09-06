@@ -9,7 +9,7 @@
  *
  *  @name fnLengthChange
  *  @summary Change the paging display length
- *  @author [Pedro Alves](https://www.webdetails.pt/)
+ *  @author [Pedro Alves](http://www.webdetails.pt/)
  *  @deprecated
  *
  *  @example

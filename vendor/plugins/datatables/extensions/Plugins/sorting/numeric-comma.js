@@ -11,7 +11,7 @@
  *  @name Commas for decimal place
  *  @summary Sort numbers correctly which use a common as the decimal place.
  *  @deprecated
- *  @author [Allan Jardine](https://sprymedia.co.uk)
+ *  @author [Allan Jardine](http://sprymedia.co.uk)
  *
  *  @example
  *    $('#example').dataTable( {

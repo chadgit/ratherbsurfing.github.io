@@ -38,7 +38,7 @@ var UNDEFINED,
 	isWebKit = /AppleWebKit/.test(userAgent),
 	isFirefox = /Firefox/.test(userAgent),
 	isTouchDevice = /(Mobile|Android|Windows Phone)/.test(userAgent),
-	SVG_NS = 'https://www.w3.org/2000/svg',
+	SVG_NS = 'http://www.w3.org/2000/svg',
 	hasSVG = !!doc.createElementNS && !!doc.createElementNS(SVG_NS, 'svg').createSVGRect,
 	hasBidiBug = isFirefox && parseInt(userAgent.split('Firefox/')[1], 10) < 4, // issue #38
 	useCanVG = !hasSVG && !isIE && !!doc.createElement('canvas').getContext,
@@ -366,7 +366,7 @@ function extendClass(parent, members) {
 function numberFormat(number, decimals, decPoint, thousandsSep) {
 	var externalFn = Highcharts.numberFormat,
 		lang = defaultOptions.lang,
-		// https://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_number_format/
+		// http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_number_format/
 		n = +number || 0,
 		c = decimals === -1 ?
 			(n.toString().split('.')[1] || '').length : // preserve decimals
@@ -411,7 +411,7 @@ function wrap(obj, method, func) {
 }
 
 /**
- * Based on https://www.php.net/manual/en/function.strftime.php
+ * Based on http://www.php.net/manual/en/function.strftime.php
  * @param {String} format
  * @param {Number} timestamp
  * @param {Boolean} capitalize
@@ -1075,7 +1075,7 @@ pathAnim = {
 		 */
 		removeEvent: function (el, eventType, handler) {
 			// workaround for jQuery issue with unbinding custom events:
-			// https://forum.jQuery.com/topic/javascript-error-when-unbinding-a-custom-event-using-jQuery-1-4-2
+			// http://forum.jQuery.com/topic/javascript-error-when-unbinding-a-custom-event-using-jQuery-1-4-2
 			var func = doc.removeEventListener ? 'removeEventListener' : 'detachEvent';
 			if (doc[func] && el && !el[func]) {
 				el[func] = function () {};
@@ -1270,8 +1270,8 @@ defaultOptions = {
 	global: {
 		useUTC: true,
 		//timezoneOffset: 0,
-		canvasToolsURL: 'https://code.highcharts.com/4.0.4/modules/canvas-tools.js',
-		VMLRadialGradientURL: 'https://code.highcharts.com/4.0.4/gfx/vml-radial-gradient.png'
+		canvasToolsURL: 'http://code.highcharts.com/4.0.4/modules/canvas-tools.js',
+		VMLRadialGradientURL: 'http://code.highcharts.com/4.0.4/gfx/vml-radial-gradient.png'
 	},
 	chart: {
 		//animation: true,
@@ -1558,7 +1558,7 @@ defaultOptions = {
 	credits: {
 		enabled: true,
 		text: 'Highcharts.com',
-		href: 'https://www.highcharts.com',
+		href: 'http://www.highcharts.com',
 		position: {
 			align: 'right',
 			x: -10,
@@ -3446,7 +3446,7 @@ SVGRenderer.prototype = {
 
 		// set the href in the xlink namespace
 		if (elemWrapper.element.setAttributeNS) {
-			elemWrapper.element.setAttributeNS('https://www.w3.org/1999/xlink',
+			elemWrapper.element.setAttributeNS('http://www.w3.org/1999/xlink',
 				'href', src);
 		} else {
 			// could be exporting in IE
@@ -3800,7 +3800,7 @@ SVGRenderer.prototype = {
 		fontSize = /px/.test(fontSize) ? pInt(fontSize) : /em/.test(fontSize) ? parseFloat(fontSize) * 12 : 12;
 
 		// Empirical values found by comparing font size and bounding box height.
-		// Applies to the default font family. https://jsfiddle.net/highcharts/7xvn7/
+		// Applies to the default font family. http://jsfiddle.net/highcharts/7xvn7/
 		var lineHeight = fontSize < 24 ? fontSize + 4 : mathRound(fontSize * 1.2),
 			baseline = mathRound(lineHeight * 0.8);
 
@@ -4498,7 +4498,7 @@ VMLElement = {
 		// but it can probably be implemented for Firefox 3.5+ on user request. FF3.5+
 		// has support for CSS3 transform. The getBBox method also needs to be updated
 		// to compensate for the rotation, like it currently does for SVG.
-		// Test case: https://jsfiddle.net/highcharts/Ybt44/
+		// Test case: http://jsfiddle.net/highcharts/Ybt44/
 
 		var rotation = this.rotation,
 			costheta = mathCos(rotation * deg2rad),
@@ -5478,7 +5478,7 @@ if (useCanVG) {
 	 */
 	Highcharts.CanVGRenderer = CanVGRenderer = function () {
 		// Override the global SVG namespace to fake SVG/HTML that accepts CSS
-		SVG_NS = 'https://www.w3.org/1999/xhtml';
+		SVG_NS = 'http://www.w3.org/1999/xhtml';
 	};
 
 	/**

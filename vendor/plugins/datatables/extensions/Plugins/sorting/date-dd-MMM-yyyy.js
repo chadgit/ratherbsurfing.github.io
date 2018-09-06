@@ -9,7 +9,7 @@
  *
  *  @name Date (dd-mmm-yyyy)
  *  @summary Sort dates in the format `dd-mmm-yyyy`
- *  @author [Jeromy French](https://www.appliedinter.net/jeromy_works/)
+ *  @author [Jeromy French](http://www.appliedinter.net/jeromy_works/)
  *
  *  @example
  *    $('#example').dataTable( {

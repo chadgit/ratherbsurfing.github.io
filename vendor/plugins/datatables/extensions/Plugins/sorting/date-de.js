@@ -6,7 +6,7 @@
  *
  *  @name Date (dd.mm.YYYY) or date and time (dd.mm.YYYY HH:mm)
  *  @summary Sort date / time in the format `dd.mm.YYYY HH:mm` or `dd.mm.YYYY`.
- *  @author [Ronny Vedrilla](https://www.ambient-innovation.com)
+ *  @author [Ronny Vedrilla](http://www.ambient-innovation.com)
  *
  *  @example
  *    $('#example').dataTable( {

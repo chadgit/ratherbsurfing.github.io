@@ -12,7 +12,7 @@
  *
  *  @name fnGetTd
  *  @summary Get the `dt-tag td` element for a cell.
- *  @author [Allan Jardine](https://sprymedia.co.uk)
+ *  @author [Allan Jardine](http://sprymedia.co.uk)
  *  @deprecated
  *
  *  @param {node} mTr `dt-tag tr` element to get the `dt-tag td` of

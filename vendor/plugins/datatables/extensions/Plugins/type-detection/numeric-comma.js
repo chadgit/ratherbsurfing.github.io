@@ -9,7 +9,7 @@
  *  @name Commas for decimal place
  *  @summary Detect numeric data which uses a comma as the decimal place.
  *  @deprecated
- *  @author [Allan Jardine](https://sprymedia.co.uk)
+ *  @author [Allan Jardine](http://sprymedia.co.uk)
  */
 
 jQuery.fn.dataTableExt.aTypes.unshift(

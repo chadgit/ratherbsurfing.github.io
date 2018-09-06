@@ -9,7 +9,7 @@
  * 
  *  @name Chinese (string)
  *  @summary Sort Chinese characters
- *  @author [Patrik Lindström](https://www.lcube.se/sorting-chinese-characters-in-javascript/)
+ *  @author [Patrik Lindström](http://www.lcube.se/sorting-chinese-characters-in-javascript/)
  *
  *  @example
  *    $('#example').dataTable( {

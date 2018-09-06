@@ -6,9 +6,9 @@
  *
  *  @author    SpryMedia
  *  @version   1.3.3
- *  @copyright 2012 SpryMedia ( https://sprymedia.co.uk )
- *  @license   https://editor.datatables.net/license DataTables Editor
- *  @link      https://editor.datatables.net
+ *  @copyright 2012 SpryMedia ( http://sprymedia.co.uk )
+ *  @license   http://editor.datatables.net/license DataTables Editor
+ *  @link      http://editor.datatables.net
  */
 
 namespace DataTables;
@@ -38,7 +38,7 @@ use
  * This documentation is very much focused on describing the API presented
  * by these DataTables Editor classes. For a more general overview of how
  * the Editor class is used, and how to install Editor on your server, please
- * refer to the {@link https://editor.datatables.net/manual Editor manual}.
+ * refer to the {@link http://editor.datatables.net/manual Editor manual}.
  *
  *  @example 
  *    A very basic example of using Editor to create a table with four fields.

@@ -1,6 +1,6 @@
 /*
- * Flip! jQuery Plugin (https://lab.smashup.it/flip/)
- * @author Luca Manno (luca@smashup.it) [https://i.smashup.it]
+ * Flip! jQuery Plugin (http://lab.smashup.it/flip/)
+ * @author Luca Manno (luca@smashup.it) [http://i.smashup.it]
  *              [Original idea by Nicola Rizzo (thanks!)]
  *
  * @version 0.9.9 [Nov. 2009]
@@ -42,14 +42,14 @@ var isIE6orOlder=function() {
     // Maybe some version of Opera?
     // The second guess behind this is that IE7+  will keep supporting maxHeight in the future.
 	
-	// First guess changed to dean edwards ie sniffing https://dean.edwards.name/weblog/2007/03/sniff/
+	// First guess changed to dean edwards ie sniffing http://dean.edwards.name/weblog/2007/03/sniff/
     return (/*@cc_on!@*/false && (typeof document.body.style.maxHeight === "undefined"));
 };
 
 
 // Some named colors to work with
 // From Interface by Stefan Petre
-// https://interface.eyecon.ro/
+// http://interface.eyecon.ro/
 
 var colors = {
 	aqua:[0,255,255],

@@ -6,7 +6,7 @@
  *
  *  @name enum
  *  @summary Sort an enumerated list of options
- *  @author [Allan Jardine](https://sprymedia.co.uk)
+ *  @author [Allan Jardine](http://sprymedia.co.uk)
  *
  *  @example
  *    $('#example').dataTable( {

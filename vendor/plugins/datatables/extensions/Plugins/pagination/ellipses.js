@@ -17,7 +17,7 @@
  * @name Ellipses
  * @summary Show ellipses in the pagination control where there is a gap in numbers
  * @deprecated
- * @author [Dave Kennedy](https://daveden.wordpress.com/)
+ * @author [Dave Kennedy](http://daveden.wordpress.com/)
  * @example
  *     $(document).ready(function() {
  *         $('#example').dataTable({

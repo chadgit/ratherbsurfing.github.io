@@ -11,7 +11,7 @@
  *
  *  @name fnFilterAll
  *  @summary Apply a common filter to all DataTables on a page
- *  @author [Kristoffer Karlström](https://www.kmmtiming.se/)
+ *  @author [Kristoffer Karlström](http://www.kmmtiming.se/)
  *  @deprecated
  *
  *  @param {string} sInput Filtering input

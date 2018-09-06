@@ -3,9 +3,9 @@
  * SQL Server driver for DataTables PHP libraries
  *
  *  @author    SpryMedia
- *  @copyright 2013 SpryMedia ( https://sprymedia.co.uk )
- *  @license   https://editor.datatables.net/license DataTables Editor
- *  @link      https://editor.datatables.net
+ *  @copyright 2013 SpryMedia ( http://sprymedia.co.uk )
+ *  @license   http://editor.datatables.net/license DataTables Editor
+ *  @link      http://editor.datatables.net
  */
 
 namespace DataTables\Database;

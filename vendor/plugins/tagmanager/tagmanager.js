@@ -1,12 +1,12 @@
 /* ===================================================
  * tagmanager.js v3.0.1
- * https://welldonethings.com/tags/manager
+ * http://welldonethings.com/tags/manager
  * ===================================================
  * Copyright 2012 Max Favilli
  *
  * Licensed under the Mozilla Public License, Version 2.0 You may not use this work except in compliance with the License.
  *
- * https://www.mozilla.org/MPL/2.0/
+ * http://www.mozilla.org/MPL/2.0/
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,

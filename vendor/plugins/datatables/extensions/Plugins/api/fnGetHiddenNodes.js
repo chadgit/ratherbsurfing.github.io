@@ -7,7 +7,7 @@
  *
  *  @name fnGetHiddenNodes
  *  @summary Get the `dt-tag tr` elements which are not in the DOM
- *  @author [Allan Jardine](https://sprymedia.co.uk)
+ *  @author [Allan Jardine](http://sprymedia.co.uk)
  *  @deprecated
  *
  *  @example

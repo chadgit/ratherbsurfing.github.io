@@ -10,7 +10,7 @@
  *
  *  @name Date / time - US
  *  @summary Sort date / time in the format `m/d/yy h:m am|pm`
- *  @author [Kevin Gravier](https://mrkmg.com/)
+ *  @author [Kevin Gravier](http://mrkmg.com/)
  *
  *  @example
  *    $('#example').dataTable( {

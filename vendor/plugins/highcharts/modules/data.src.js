@@ -11,7 +11,7 @@
  * CSV, HTML tables or grid views into basic configuration options for use 
  * directly in the Highcharts constructor.
  *
- * Demo: https://jsfiddle.net/highcharts/SnLFj/
+ * Demo: http://jsfiddle.net/highcharts/SnLFj/
  *
  * --- OPTIONS ---
  *
@@ -97,8 +97,8 @@
 /*
  * TODO: 
  * - Handle various date formats
- *     - https://jsfiddle.net/highcharts/114wejdx/
- *     - https://jsfiddle.net/highcharts/ryv67bkq/
+ *     - http://jsfiddle.net/highcharts/114wejdx/
+ *     - http://jsfiddle.net/highcharts/ryv67bkq/
  */
 
 // JSLint options:

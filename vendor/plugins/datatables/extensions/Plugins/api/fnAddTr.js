@@ -11,7 +11,7 @@
  *
  *  @name fnAddTr
  *  @summary Add a `dt-tag tr` element to the table
- *  @author [Allan Jardine](https://sprymedia.co.uk)
+ *  @author [Allan Jardine](http://sprymedia.co.uk)
  *  @deprecated
  *
  *  @param {node} nTr `dt-tag tr` element to add to the table

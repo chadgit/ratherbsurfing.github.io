@@ -9,7 +9,7 @@
  *            https://mixitup.kunkalabs.com/licenses/
  *
  *            Non-commercial use permitted under terms of CC-BY-NC license.
- *            https://creativecommons.org/licenses/by-nc/3.0/
+ *            http://creativecommons.org/licenses/by-nc/3.0/
  */
 
 (function($, undf){

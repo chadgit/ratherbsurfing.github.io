@@ -8,8 +8,8 @@
  *
  *  @name fnSetFilteringDelay
  *  @summary Add a key debouce delay to the global filtering input of a table
- *  @author [Zygimantas Berziunas](https://www.zygimantas.com/), 
- *    [Allan Jardine](https://www.sprymedia.co.uk/) and _vex_
+ *  @author [Zygimantas Berziunas](http://www.zygimantas.com/), 
+ *    [Allan Jardine](http://www.sprymedia.co.uk/) and _vex_
  *
  *  @example
  *    $(document).ready(function() {

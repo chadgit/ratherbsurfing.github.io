@@ -2,10 +2,10 @@
 // markItUp!
 // ----------------------------------------------------------------------------
 // Copyright (C) 2011 Jay Salvat
-// https://markitup.jaysalvat.com/
+// http://markitup.jaysalvat.com/
 // ----------------------------------------------------------------------------
 // Html tags
-// https://en.wikipedia.org/wiki/html
+// http://en.wikipedia.org/wiki/html
 // ----------------------------------------------------------------------------
 // Basic set. Feel free to add more tags
 // ----------------------------------------------------------------------------
@@ -21,8 +21,8 @@ var mySettings = {
 		{name:'Bulleted List', openWith:'    <li>', closeWith:'</li>', multiline:true, openBlockWith:'<ul>\n', closeBlockWith:'\n</ul>'},
 		{name:'Numeric List', openWith:'    <li>', closeWith:'</li>', multiline:true, openBlockWith:'<ol>\n', closeBlockWith:'\n</ol>'},
 		{separator:'---------------' },
-		{name:'Picture', key:'P', replaceWith:'<img src="[![Source:!:https://]!]" alt="[![Alternative text]!]" />' },
-		{name:'Link', key:'L', openWith:'<a href="[![Link:!:https://]!]"(!( title="[![Title]!]")!)>', closeWith:'</a>', placeHolder:'Your text to link...' },
+		{name:'Picture', key:'P', replaceWith:'<img src="[![Source:!:http://]!]" alt="[![Alternative text]!]" />' },
+		{name:'Link', key:'L', openWith:'<a href="[![Link:!:http://]!]"(!( title="[![Title]!]")!)>', closeWith:'</a>', placeHolder:'Your text to link...' },
 		{separator:'---------------' },
 		{name:'Clean', className:'clean', replaceWith:function(markitup) { return markitup.selection.replace(/<(.*?)>/g, "") } },		
 		{name:'Preview', className:'preview',  call:'preview'}

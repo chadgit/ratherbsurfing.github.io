@@ -5,7 +5,7 @@
  *
  *  @name fnFilterOnReturn
  *  @summary Require the return key to be pressed to filter a table
- *  @author [Jon Ranes](https://www.mvccms.com/)
+ *  @author [Jon Ranes](http://www.mvccms.com/)
  *
  *  @returns {jQuery} jQuery instance
  *

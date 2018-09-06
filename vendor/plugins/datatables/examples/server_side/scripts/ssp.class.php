@@ -9,10 +9,10 @@
  * processing, they are intentionally simple to show how it works. More complex
  * server-side processing operations will likely require a custom script.
  *
- * See https://datatables.net/usage/server-side for full details on the server-
+ * See http://datatables.net/usage/server-side for full details on the server-
  * side processing requirements of DataTables.
  *
- * @license MIT - https://datatables.net/license_mit
+ * @license MIT - http://datatables.net/license_mit
  */
 
 

@@ -14,7 +14,7 @@
  *  @name Hidden title numeric sorting
  *  @summary Sort data numerically based on an attribute on an empty element.
  *  @deprecated
- *  @author [Allan Jardine](https://sprymedia.co.uk)
+ *  @author [Allan Jardine](http://sprymedia.co.uk)
  *
  *  @example
  *    $('#example').dataTable( {

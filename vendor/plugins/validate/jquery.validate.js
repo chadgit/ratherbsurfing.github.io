@@ -1,18 +1,18 @@
 /*!
  * jQuery Validation Plugin 1.11.1
  *
- * https://bassistance.de/jquery-plugins/jquery-plugin-validation/
- * https://docs.jquery.com/Plugins/Validation
+ * http://bassistance.de/jquery-plugins/jquery-plugin-validation/
+ * http://docs.jquery.com/Plugins/Validation
  *
  * Copyright 2013 Jörn Zaefferer
  * Released under the MIT license:
- *   https://www.opensource.org/licenses/mit-license.php
+ *   http://www.opensource.org/licenses/mit-license.php
  */
 
 (function($) {
 
 $.extend($.fn, {
-	// https://docs.jquery.com/Plugins/Validation/validate
+	// http://docs.jquery.com/Plugins/Validation/validate
 	validate: function( options ) {
 
 		// if nothing is selected, return nothing; can't chain anyway
@@ -95,7 +95,7 @@ $.extend($.fn, {
 
 		return validator;
 	},
-	// https://docs.jquery.com/Plugins/Validation/valid
+	// http://docs.jquery.com/Plugins/Validation/valid
 	valid: function() {
 		if ( $(this[0]).is("form")) {
 			return this.validate().form();
@@ -118,7 +118,7 @@ $.extend($.fn, {
 		});
 		return result;
 	},
-	// https://docs.jquery.com/Plugins/Validation/rules
+	// http://docs.jquery.com/Plugins/Validation/rules
 	rules: function( command, argument ) {
 		var element = this[0];
 
@@ -172,11 +172,11 @@ $.extend($.fn, {
 
 // Custom selectors
 $.extend($.expr[":"], {
-	// https://docs.jquery.com/Plugins/Validation/blank
+	// http://docs.jquery.com/Plugins/Validation/blank
 	blank: function( a ) { return !$.trim("" + $(a).val()); },
-	// https://docs.jquery.com/Plugins/Validation/filled
+	// http://docs.jquery.com/Plugins/Validation/filled
 	filled: function( a ) { return !!$.trim("" + $(a).val()); },
-	// https://docs.jquery.com/Plugins/Validation/unchecked
+	// http://docs.jquery.com/Plugins/Validation/unchecked
 	unchecked: function( a ) { return !$(a).prop("checked"); }
 });
 
@@ -273,7 +273,7 @@ $.extend($.validator, {
 		}
 	},
 
-	// https://docs.jquery.com/Plugins/Validation/Validator/setDefaults
+	// http://docs.jquery.com/Plugins/Validation/Validator/setDefaults
 	setDefaults: function( settings ) {
 		$.extend( $.validator.defaults, settings );
 	},
@@ -347,7 +347,7 @@ $.extend($.validator, {
 			}
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Validator/form
+		// http://docs.jquery.com/Plugins/Validation/Validator/form
 		form: function() {
 			this.checkForm();
 			$.extend(this.submitted, this.errorMap);
@@ -367,7 +367,7 @@ $.extend($.validator, {
 			return this.valid();
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Validator/element
+		// http://docs.jquery.com/Plugins/Validation/Validator/element
 		element: function( element ) {
 			element = this.validationTargetFor( this.clean( element ) );
 			this.lastElement = element;
@@ -387,7 +387,7 @@ $.extend($.validator, {
 			return result;
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Validator/showErrors
+		// http://docs.jquery.com/Plugins/Validation/Validator/showErrors
 		showErrors: function( errors ) {
 			if ( errors ) {
 				// add items to error list and map
@@ -411,7 +411,7 @@ $.extend($.validator, {
 			}
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Validator/resetForm
+		// http://docs.jquery.com/Plugins/Validation/Validator/resetForm
 		resetForm: function() {
 			if ( $.fn.resetForm ) {
 				$(this.currentForm).resetForm();
@@ -981,7 +981,7 @@ $.extend($.validator, {
 		return data;
 	},
 
-	// https://docs.jquery.com/Plugins/Validation/Validator/addMethod
+	// http://docs.jquery.com/Plugins/Validation/Validator/addMethod
 	addMethod: function( name, method, message ) {
 		$.validator.methods[name] = method;
 		$.validator.messages[name] = message !== undefined ? message : $.validator.messages[name];
@@ -992,7 +992,7 @@ $.extend($.validator, {
 
 	methods: {
 
-		// https://docs.jquery.com/Plugins/Validation/Methods/required
+		// http://docs.jquery.com/Plugins/Validation/Methods/required
 		required: function( value, element, param ) {
 			// check if dependency is met
 			if ( !this.depend(param, element) ) {
@@ -1009,40 +1009,40 @@ $.extend($.validator, {
 			return $.trim(value).length > 0;
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Methods/email
+		// http://docs.jquery.com/Plugins/Validation/Methods/email
 		email: function( value, element ) {
-			// contributed by Scott Gonzalez: https://projects.scottsplayground.com/email_address_validation/
+			// contributed by Scott Gonzalez: http://projects.scottsplayground.com/email_address_validation/
 			return this.optional(element) || /^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))$/i.test(value);
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Methods/url
+		// http://docs.jquery.com/Plugins/Validation/Methods/url
 		url: function( value, element ) {
-			// contributed by Scott Gonzalez: https://projects.scottsplayground.com/iri/
+			// contributed by Scott Gonzalez: http://projects.scottsplayground.com/iri/
 			return this.optional(element) || /^(https?|s?ftp):\/\/(((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:)*@)?(((\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5]))|((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?)(:\d*)?)(\/((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)+(\/(([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)*)*)?)?(\?((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)|[\uE000-\uF8FF]|\/|\?)*)?(#((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)|\/|\?)*)?$/i.test(value);
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Methods/date
+		// http://docs.jquery.com/Plugins/Validation/Methods/date
 		date: function( value, element ) {
 			return this.optional(element) || !/Invalid|NaN/.test(new Date(value).toString());
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Methods/dateISO
+		// http://docs.jquery.com/Plugins/Validation/Methods/dateISO
 		dateISO: function( value, element ) {
 			return this.optional(element) || /^\d{4}[\/\-]\d{1,2}[\/\-]\d{1,2}$/.test(value);
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Methods/number
+		// http://docs.jquery.com/Plugins/Validation/Methods/number
 		number: function( value, element ) {
 			return this.optional(element) || /^-?(?:\d+|\d{1,3}(?:,\d{3})+)?(?:\.\d+)?$/.test(value);
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Methods/digits
+		// http://docs.jquery.com/Plugins/Validation/Methods/digits
 		digits: function( value, element ) {
 			return this.optional(element) || /^\d+$/.test(value);
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Methods/creditcard
-		// based on https://en.wikipedia.org/wiki/Luhn
+		// http://docs.jquery.com/Plugins/Validation/Methods/creditcard
+		// based on http://en.wikipedia.org/wiki/Luhn
 		creditcard: function( value, element ) {
 			if ( this.optional(element) ) {
 				return "dependency-mismatch";
@@ -1072,40 +1072,40 @@ $.extend($.validator, {
 			return (nCheck % 10) === 0;
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Methods/minlength
+		// http://docs.jquery.com/Plugins/Validation/Methods/minlength
 		minlength: function( value, element, param ) {
 			var length = $.isArray( value ) ? value.length : this.getLength($.trim(value), element);
 			return this.optional(element) || length >= param;
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Methods/maxlength
+		// http://docs.jquery.com/Plugins/Validation/Methods/maxlength
 		maxlength: function( value, element, param ) {
 			var length = $.isArray( value ) ? value.length : this.getLength($.trim(value), element);
 			return this.optional(element) || length <= param;
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Methods/rangelength
+		// http://docs.jquery.com/Plugins/Validation/Methods/rangelength
 		rangelength: function( value, element, param ) {
 			var length = $.isArray( value ) ? value.length : this.getLength($.trim(value), element);
 			return this.optional(element) || ( length >= param[0] && length <= param[1] );
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Methods/min
+		// http://docs.jquery.com/Plugins/Validation/Methods/min
 		min: function( value, element, param ) {
 			return this.optional(element) || value >= param;
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Methods/max
+		// http://docs.jquery.com/Plugins/Validation/Methods/max
 		max: function( value, element, param ) {
 			return this.optional(element) || value <= param;
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Methods/range
+		// http://docs.jquery.com/Plugins/Validation/Methods/range
 		range: function( value, element, param ) {
 			return this.optional(element) || ( value >= param[0] && value <= param[1] );
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Methods/equalTo
+		// http://docs.jquery.com/Plugins/Validation/Methods/equalTo
 		equalTo: function( value, element, param ) {
 			// bind to the blur event of the target in order to revalidate whenever the target field is updated
 			// TODO find a way to bind the event just once, avoiding the unbind-rebind overhead
@@ -1118,7 +1118,7 @@ $.extend($.validator, {
 			return value === target.val();
 		},
 
-		// https://docs.jquery.com/Plugins/Validation/Methods/remote
+		// http://docs.jquery.com/Plugins/Validation/Methods/remote
 		remote: function( value, element, param ) {
 			if ( this.optional(element) ) {
 				return "dependency-mismatch";

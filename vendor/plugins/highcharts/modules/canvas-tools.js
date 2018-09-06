@@ -1,15 +1,15 @@
 /*
  A class to parse color values
  @author Stoyan Stefanov <sstoo@gmail.com>
- @link   https://www.phpied.com/rgb-color-parser-in-javascript/
+ @link   http://www.phpied.com/rgb-color-parser-in-javascript/
  Use it if you like it
 
  canvg.js - Javascript SVG parser and renderer on Canvas
  MIT Licensed 
  Gabe Lerner (gabelerner@gmail.com)
- https://code.google.com/p/canvg/
+ http://code.google.com/p/canvg/
 
- Requires: rgbcolor.js - https://www.phpied.com/rgb-color-parser-in-javascript/
+ Requires: rgbcolor.js - http://www.phpied.com/rgb-color-parser-in-javascript/
 
  Highcharts JS v4.0.4 (2014-09-02)
  CanVGRenderer Extension module

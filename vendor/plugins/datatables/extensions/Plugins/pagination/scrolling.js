@@ -6,7 +6,7 @@
  *
  *  @name Scrolling navigation
  *  @summary Show page changes as a redraw of the table, scrolling records.
- *  @author [Allan Jardine](https://sprymedia.co.uk)
+ *  @author [Allan Jardine](http://sprymedia.co.uk)
  *
  *  @example
  *    $(document).ready(function() {

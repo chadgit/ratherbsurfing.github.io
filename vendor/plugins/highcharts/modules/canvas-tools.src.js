@@ -1,7 +1,7 @@
 /**
  * @license A class to parse color values
  * @author Stoyan Stefanov <sstoo@gmail.com>
- * @link   https://www.phpied.com/rgb-color-parser-in-javascript/
+ * @link   http://www.phpied.com/rgb-color-parser-in-javascript/
  * Use it if you like it
  *
  */
@@ -291,9 +291,9 @@ function RGBColor(color_string)
  * @license canvg.js - Javascript SVG parser and renderer on Canvas
  * MIT Licensed 
  * Gabe Lerner (gabelerner@gmail.com)
- * https://code.google.com/p/canvg/
+ * http://code.google.com/p/canvg/
  *
- * Requires: rgbcolor.js - https://www.phpied.com/rgb-color-parser-in-javascript/
+ * Requires: rgbcolor.js - http://www.phpied.com/rgb-color-parser-in-javascript/
  *
  */
 if(!window.console) {
@@ -707,7 +707,7 @@ if(!Array.prototype.indexOf){
 			}
 			
 			this.addBezierCurve = function(p0x, p0y, p1x, p1y, p2x, p2y, p3x, p3y) {
-				// from https://blog.hackers-cafe.net/2009/06/how-to-calculate-bezier-curves-bounding.html
+				// from http://blog.hackers-cafe.net/2009/06/how-to-calculate-bezier-curves-bounding.html
 				var p0 = [p0x, p0y], p1 = [p1x, p1y], p2 = [p2x, p2y], p3 = [p3x, p3y];
 				this.addPoint(p0[0], p0[1]);
 				this.addPoint(p3[0], p3[1]);
@@ -858,7 +858,7 @@ if(!Array.prototype.indexOf){
 		
 		// aspect ratio
 		svg.AspectRatio = function(ctx, aspectRatio, width, desiredWidth, height, desiredHeight, minX, minY, refX, refY) {
-			// aspect ratio - https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute
+			// aspect ratio - http://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute
 			aspectRatio = svg.compressSpaces(aspectRatio);
 			aspectRatio = aspectRatio.replace(/^defer\s/,''); // ignore defer
 			var align = aspectRatio.split(' ')[0] || 'xMidYMid';
@@ -1391,7 +1391,7 @@ if(!Array.prototype.indexOf){
 			this.base(node);
 					
 			var d = this.attribute('d').value;
-			// TODO: convert to real lexer based on https://www.w3.org/TR/SVG11/paths.html#PathDataBNF
+			// TODO: convert to real lexer based on http://www.w3.org/TR/SVG11/paths.html#PathDataBNF
 			d = d.replace(/,/gm,' '); // get rid of all commas
 			d = d.replace(/([MmZzLlHhVvCcSsQqTtAa])([MmZzLlHhVvCcSsQqTtAa])/gm,'$1 $2'); // separate commands from commands
 			d = d.replace(/([MmZzLlHhVvCcSsQqTtAa])([MmZzLlHhVvCcSsQqTtAa])/gm,'$1 $2'); // separate commands from commands
@@ -1610,7 +1610,7 @@ if(!Array.prototype.indexOf){
 							var cp = pp.getAsCurrentPoint();
 
 							// Conversion from endpoint to center parameterization
-							// https://www.w3.org/TR/SVG11/implnote.html#ArcImplementationNotes
+							// http://www.w3.org/TR/SVG11/implnote.html#ArcImplementationNotes
 							// x1', y1'
 							var currp = new svg.Point(
 								Math.cos(xAxisRotation) * (curr.x - cp.x) / 2.0 + Math.sin(xAxisRotation) * (curr.y - cp.y) / 2.0,
@@ -3090,7 +3090,7 @@ if (CanvasRenderingContext2D) {
 		/**
 		 * Take a color and return it if it's a string, do not make it a gradient even if it is a
 		 * gradient. Currently canvg cannot render gradients (turns out black),
-		 * see: https://code.google.com/p/canvg/issues/detail?id=104
+		 * see: http://code.google.com/p/canvg/issues/detail?id=104
 		 *
 		 * @param {Object} color The color or config object
 		 */

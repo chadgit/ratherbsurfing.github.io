@@ -94,7 +94,7 @@
 					"description": "Additional information",
 					"category": "food",
 					"thumbnail": "vendor/plugins/mapplic/images/mall/thumb/mcdonalds.jpg",
-					"link": "https://themeforest.net/user/AdminDesigns",
+					"link": "http://themeforest.net/user/AdminDesigns",
 					"x": "0.615",
 					"y": "0.3416",
 					"zoom": "8"
@@ -167,10 +167,10 @@
 					"id": "cvs",
 					"title": "CVS Pharmacy",
 					"about": "Lorem ipsum",
-					"description": "Lorem ipsum <a href=\"https://www.codecanyon.net\">dolor sit</a> amet, consectetur.",
+					"description": "Lorem ipsum <a href=\"http://www.codecanyon.net\">dolor sit</a> amet, consectetur.",
 					"category": "health",
 					"thumbnail": "vendor/plugins/mapplic/images/mall/thumb/cvs.jpg",
-					"link": "https://themeforest.net/user/AdminDesigns",
+					"link": "http://themeforest.net/user/AdminDesigns",
 					"x": "0.6187",
 					"y": "0.45"
 				},
@@ -191,7 +191,7 @@
 					"description": "Makeup, fragrance, skincare",
 					"category": "health",
 					"thumbnail": "vendor/plugins/mapplic/images/mall/thumb/sephora.jpg",
-					"link": "https://themeforest.net/user/AdminDesigns",
+					"link": "http://themeforest.net/user/AdminDesigns",
 
 					"x": "0.5125",
 					"y": "0.7416"
@@ -203,7 +203,7 @@
 					"description": "<p>Lorem ipsum</p><img src=\"vendor/plugins/mapplic/images/logo.png\" alt=\"Mapplic\">",
 					"category": "clothing",
 					"thumbnail": "vendor/plugins/mapplic/images/mall/thumb/belk.jpg",
-					"link": "https://themeforest.net/user/AdminDesigns",
+					"link": "http://themeforest.net/user/AdminDesigns",
 					"x": "0.4627",
 					"y": "0.5202"
 				},
@@ -244,7 +244,7 @@
 					"description": "<img src=\"vendor/plugins/mapplic/images/logo.png\" alt=\"Mapplic\"><p>Lorem ipsum</p>",
 					"category": "clothing",
 					"thumbnail": "vendor/plugins/mapplic/images/mall/thumb/zara.jpg",
-					"link": "https://themeforest.net/user/AdminDesigns",
+					"link": "http://themeforest.net/user/AdminDesigns",
 					"x": "0.5573",
 					"y": "0.3503"
 				}

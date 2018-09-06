@@ -1,6 +1,6 @@
 /* ===================================================
  * bootstrap-markdown.js v2.8.0
- * https://github.com/toopay/bootstrap-markdown
+ * http://github.com/toopay/bootstrap-markdown
  * ===================================================
  * Copyright 2013-2015 Taufan Aditya
  *
@@ -8,7 +8,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- * https://www.apache.org/licenses/LICENSE-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -1012,9 +1012,9 @@
               chunk = selected.text;
             }
 
-            link = prompt(e.__localize('Insert Hyperlink'),'https://');
+            link = prompt(e.__localize('Insert Hyperlink'),'http://');
 
-            if (link !== null && link !== '' && link !== 'https://' && link.substr(0,4) === 'http') {
+            if (link !== null && link !== '' && link !== 'http://' && link.substr(0,4) === 'http') {
               var sanitizedLink = $('<div>'+link+'</div>').text();
 
               // transform selection and set the cursor into chunked text
@@ -1041,9 +1041,9 @@
               chunk = selected.text;
             }
 
-            link = prompt(e.__localize('Insert Image Hyperlink'),'https://');
+            link = prompt(e.__localize('Insert Image Hyperlink'),'http://');
 
-            if (link !== null && link !== '' && link !== 'https://' && link.substr(0,4) === 'http') {
+            if (link !== null && link !== '' && link !== 'http://' && link.substr(0,4) === 'http') {
               var sanitizedLink = $('<div>'+link+'</div>').text();
 
               // transform selection and set the cursor into chunked text

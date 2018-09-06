@@ -3,11 +3,11 @@
  * jPaginator
  * by Ernani Azevedo <azevedo@intellinews.com.br>
  *
- * You'll need jQuery DataTables (https://datatables.net/) and jPaginator
- * (https://remylab.github.com/jpaginator/) loaded before load this one.
+ * You'll need jQuery DataTables (http://datatables.net/) and jPaginator
+ * (http://remylab.github.com/jpaginator/) loaded before load this one.
  *
  * Full description is available here:
- * https://www.intellinews.com.br/blog/2012/10/26/jquery-datatables-integration-with-jpaginator-4/
+ * http://www.intellinews.com.br/blog/2012/10/26/jquery-datatables-integration-with-jpaginator-4/
  *
  *  @license GPL v3.0.
  *  @example

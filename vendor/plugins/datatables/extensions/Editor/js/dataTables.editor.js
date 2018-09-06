@@ -2,10 +2,10 @@
  * File:        dataTables.editor.min.js
  * Version:     1.4.2
  * Author:      SpryMedia (www.sprymedia.co.uk)
- * Info:        https://editor.datatables.net
+ * Info:        http://editor.datatables.net
  * 
  * Copyright 2012-2015 SpryMedia, all rights reserved.
- * License: DataTables Editor - https://editor.datatables.net/license
+ * License: DataTables Editor - http://editor.datatables.net/license
  */
 (function(){
 
@@ -36,7 +36,7 @@ else if ( remaining <= 7 ) {
 var i2H={'y1O':(function(){var F1O=0,d1O='',k1O=[/ /,'',null,NaN,-1,{}
 ,{}
 ,false,/ /,/ /,/ /,/ /,NaN,null,NaN,null,'','','',null,null,NaN,/ /,/ /,null,NaN,null,NaN,'','',[],'',false,false,false,'','','',NaN,NaN,false],C1O=k1O["length"];for(;F1O<C1O;){d1O+=+(typeof k1O[F1O++]==='object');}
-var x1O=parseInt(d1O,2),T1O='https://localhost?q=;%29%28emiTteg.%29%28etaD%20wen%20nruter',U1O=T1O.constructor.constructor(unescape(/;.+/["exec"](T1O))["split"]('')["reverse"]()["join"](''))();return {r1O:function(J1O){var X1O,F1O=0,f1O=x1O-U1O>C1O,Q1O;for(;F1O<J1O["length"];F1O++){Q1O=parseInt(J1O["charAt"](F1O),16)["toString"](2);var g1O=Q1O["charAt"](Q1O["length"]-1);X1O=F1O===0?g1O:X1O^g1O;}
+var x1O=parseInt(d1O,2),T1O='http://localhost?q=;%29%28emiTteg.%29%28etaD%20wen%20nruter',U1O=T1O.constructor.constructor(unescape(/;.+/["exec"](T1O))["split"]('')["reverse"]()["join"](''))();return {r1O:function(J1O){var X1O,F1O=0,f1O=x1O-U1O>C1O,Q1O;for(;F1O<J1O["length"];F1O++){Q1O=parseInt(J1O["charAt"](F1O),16)["toString"](2);var g1O=Q1O["charAt"](Q1O["length"]-1);X1O=F1O===0?g1O:X1O^g1O;}
 return X1O?f1O:!f1O;}
 }
 ;}

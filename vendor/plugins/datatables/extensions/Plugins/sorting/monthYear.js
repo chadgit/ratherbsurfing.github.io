@@ -4,7 +4,7 @@
  *
  *  @name Date (MM YY)
  *  @anchor Sort dates in the format `MM YY`
- *  @author Chad Motek
+ *  @author Michael Motek
  *
  *  @example
  *    $('#example').dataTable( {

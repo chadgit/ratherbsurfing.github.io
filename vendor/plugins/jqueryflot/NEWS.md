@@ -133,7 +133,7 @@ The base and overlay canvas are now using the CSS classes "flot-base" and
    Shane Reustle)
 
  - In addition to "left" and "center", bars now recognize "right" as an
-   alignment option. (patch by Chad Mayer, issue 520)
+   alignment option. (patch by Michael Mayer, issue 520)
 
  - Switched from toFixed to a much faster default tickFormatter. (patch by
    Clemens Stolle)
@@ -338,7 +338,7 @@ adapt the excanvas include to skip loading it in IE 9 (the examples have been
 adapted thanks to Ryley Breiddal). An alternative to excanvas using Flash has
 also surfaced, if your graphs are slow in IE, you may want to give it a spin:
 
-    https://code.google.com/p/flashcanvas/
+    http://code.google.com/p/flashcanvas/
 
 ### Changes ###
 
@@ -823,7 +823,7 @@ min, max, tickDecimals, tickSize.
 
 ## Changes ##
 
- - Added support for segmented lines. (based on patch from Chad MacDonald)
+ - Added support for segmented lines. (based on patch from Michael MacDonald)
 
  - Added support for ignoring null and bad values. (suggestion from Nick
    Konidaris and joshwaihi)
@@ -858,7 +858,7 @@ previous zip/tarball.
 
 ## Bug fixes ##
 
- - Fixed a bug in dealing with data where min = max. (thanks to Chad
+ - Fixed a bug in dealing with data where min = max. (thanks to Michael
    Messinides)
 
 

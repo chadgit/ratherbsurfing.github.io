@@ -12,7 +12,7 @@
  *  @name Formatted numbers
  *  @summary formatted_numbers
  *  @deprecated
- *  @author [Allan Jardine](https://sprymedia.co.uk)
+ *  @author [Allan Jardine](http://sprymedia.co.uk)
  */
 
 jQuery.fn.dataTableExt.aTypes.unshift(

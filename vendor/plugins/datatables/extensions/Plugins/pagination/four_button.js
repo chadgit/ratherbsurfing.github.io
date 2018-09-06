@@ -11,7 +11,7 @@
  *  @name Four button navigation
  *  @summary Display forward, back, first and last buttons.
  *  @deprecated
- *  @author [Allan Jardine](https://sprymedia.co.uk)
+ *  @author [Allan Jardine](http://sprymedia.co.uk)
  *
  *  @example
  *    $(document).ready(function() {

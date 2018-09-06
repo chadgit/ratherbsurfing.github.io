@@ -10,7 +10,7 @@
  *
  *  @name columns().order()
  *  @summary Apply multi-column ordering through the columns() API method.
- *  @author [Allan Jardine](https://sprymedia.co.uk)
+ *  @author [Allan Jardine](http://sprymedia.co.uk)
  *  @requires DataTables 1.10+
  *  @param {string|array} dir The order to apply to the columns selected. This
  *    can be a string (`asc` or `desc`) which will be applied to all columns,
