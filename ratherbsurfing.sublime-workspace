@@ -1,0 +1,324 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"JSONED",
+				"JSONEditor"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"zo",
+				"zoomLevelSpan"
+			],
+			[
+				"lo",
+				"LobiAdmin"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"clean",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/dashboard.sublime-workspace",
+		"/Users/chadcollins/Downloads/themeforest-7318254-clouds-3d-interactive-coming-soon-page 2/www/index.htm",
+		"/Users/chadcollins/Downloads/themeforest-7318254-clouds-3d-interactive-coming-soon-page 2/nubai.sublime-project",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/assets/img/patterns/e8.svg",
+		"/Users/chadcollins/Desktop/untitled.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/pages_profile.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/pages_timeline-single.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/pages_timeline.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/admin_forms-elements.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/admin_forms-layouts.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/admin_forms-validation.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/admin_forms-widgets.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/admin_forms-wizard.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/admin_plugins-dock.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/admin_plugins-modals.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/admin_plugins-panels.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/charts_d3.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/charts_flot.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/charts_highcharts.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/dashboard.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/ecommerce_customers.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/ecommerce_dashboard.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/ecommerce_orders.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/ecommerce_products.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/ecommerce_settings.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/email_templates.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/form_content-sliders.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/form_editors.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/form_image-tools.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/form_inputs.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/form_nestable.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/form_notifications.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/form_plugins.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/form_treeview.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/form_uploaders.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/index-bak.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/index.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_boxed-horizontal.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_boxed.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_content-blank.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_content-fixed.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_content-heading.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_content-tabs.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_horizontal-boxed.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_horizontal-collapsed.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_horizontal-lg.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_horizontal-light.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_horizontal-md.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_horizontal-sm.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_horizontal-topbar-alt.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_horizontal-topbar.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_navbar-contextual.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_navbar-fixed.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_navbar-menus.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_navbar-search-alt.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_navbar-static.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_sidebar-left-fixed.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_sidebar-left-light.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_sidebar-left-minified.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_sidebar-left-static.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_sidebar-left-widgets.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_sidebar-right-fixed.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_sidebar-right-menu.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_sidebar-right-static.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_topbar-alt.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_topbar-menu.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_topbar.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_tray-both-fixed.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_tray-both.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_tray-left-fixed.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_tray-left.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_tray-right-fixed.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/layout_tray-right.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/maps_advanced.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/maps_basic.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/maps_full.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/maps_vector.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/misc_nprogress.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/misc_timeout.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/misc_tour.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/pages_404(alt).html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/pages_404.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/pages_500(alt).html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/pages_500.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/pages_calendar.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/pages_compose(alt).html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/pages_compose.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/pages_faq.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/pages_gallery.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/pages_invoice.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/pages_messages(alt).html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/pages_messages.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/pages_search-results.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/tables_basic.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/tables_datatables-editor.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/tables_datatables.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/tables_footable.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/tables_pricing.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/ui_alerts.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/ui_animations.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/ui_buttons.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/ui_grid.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/ui_icons.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/ui_portlets.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/ui_progress-bars.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/ui_tabs.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/ui_typography.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/vendor/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/vendor/plugins/datatables/extensions/Scroller/examples/data/2500.txt",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/widgets_data.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/widgets_panel.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/widgets_scroller.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/widgets_tile.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/vendor/plugins/datatables/examples/advanced_init/column_render.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/vendor/plugins/datatables/examples/advanced_init/complex_header.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/vendor/plugins/datatables/examples/advanced_init/defaults.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/vendor/plugins/datatables/examples/advanced_init/dom_multiple_elements.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/vendor/plugins/datatables/examples/advanced_init/dom_toolbar.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/vendor/plugins/datatables/examples/advanced_init/dt_events.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/vendor/plugins/datatables/examples/advanced_init/events_live.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/vendor/plugins/datatables/examples/advanced_init/html5-data-attributes.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/vendor/plugins/datatables/examples/advanced_init/language_file.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/vendor/plugins/datatables/examples/advanced_init/length_menu.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/vendor/plugins/datatables/examples/advanced_init/object_dom_read.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/vendor/plugins/datatables/examples/advanced_init/row_callback.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/vendor/plugins/datatables/examples/advanced_init/row_grouping.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/vendor/plugins/datatables/examples/advanced_init/sort_direction_control.html",
+		"/Users/chadcollins/Documents/chadcollins/ratherbsurfing.github.io/vendor/plugins/datatables/examples/ajax/data/arrays.txt"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ratherbsurfing.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/electron-browser/electron-browser.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 684.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
