@@ -1,7 +1,7 @@
 'use strict';
 /*! main.js - v0.1.1
  * https://admindesigns.com/
- * Copyright (c) 2015 Admin Designs;*/
+ * Copyright (c) 2015 ChadCollins.com;*/
 
 /* Demo theme functions. Required for
  * Settings Pane and misc functions */
