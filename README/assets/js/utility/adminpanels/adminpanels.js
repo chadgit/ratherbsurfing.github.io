@@ -1,7 +1,7 @@
 
 /*
  * AdminPanels.js was created solely for this theme.
- * Author: AdminDesigns.com
+ * Author: ChadCollins.com
  * 
  */
 ;

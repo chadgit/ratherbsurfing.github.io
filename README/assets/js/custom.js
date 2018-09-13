@@ -1,5 +1,5 @@
 'use strict';
-//  Author: AdminDesigns.com
+//  Author: ChadCollins.com
 // 
 //  This file is reserved for changes made by the use. 
 //  Always seperate your work from the theme. It makes
