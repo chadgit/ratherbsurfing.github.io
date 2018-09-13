@@ -1,6 +1,6 @@
 'use strict';
 /*! docs.js - v0.1.1
- * http://admindesigns.com/
+ * http://chadcollins.com/
  * Copyright (c) 2015 Admin Designs;*/
 
 /* Core Documentation functions required for
