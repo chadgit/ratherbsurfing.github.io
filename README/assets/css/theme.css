@@ -15510,7 +15510,7 @@ body.boxed-layout.screenlock-page #main:after {
   z-index: 999;
   overflow: visible !important;
   position: fixed;
-  top: 120px;
+  top: 70px;
   right: -230px;
   width: 230px;
   -webkit-transition: right 0.1s ease-in-out;
