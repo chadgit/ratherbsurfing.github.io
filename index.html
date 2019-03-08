@@ -13,6 +13,14 @@
   <!-- Font CSS (Via CDN) -->
   <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700'>
 
+  <!-- Summernote CSS  -->
+  <link rel="stylesheet" type="text/css" href="vendor/plugins/summernote/summernote.css">
+
+  <!-- X-editable CSS -->
+  <link rel="stylesheet" type="text/css" href="vendor/plugins/xeditable/css/bootstrap-editable.css">
+  <link rel="stylesheet" type="text/css" href="vendor/plugins/xeditable/inputs/address/address.css">
+  <link rel="stylesheet" type="text/css" href="vendor/plugins/xeditable/inputs/typeaheadjs/lib/typeahead.js-bootstrap.css">
+
   <!-- Theme CSS -->
   <link rel="stylesheet" type="text/css" href="assets/skin/default_skin/css/theme.css">
 
@@ -27,7 +35,7 @@
 
 </head>
 
-<body class="search-results-page">
+<body class="form-editors-page" data-spy="scroll" data-target="#nav-spy" data-offset="300">
 
   <!-- Start: Theme Preview Pane -->
   <div id="skin-toolbox">
@@ -203,8 +211,7 @@
           <input type="text" class="form-control" placeholder="Search..." value="Search...">
         </div>
       </form>
-    <!-- 
-          <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right">
         <li>
           <div class="navbar-btn btn-group">
             <a href="#" class="topbar-menu-toggle btn btn-sm" data-toggle="button">
@@ -701,7 +708,7 @@
           <div class="navbar-btn btn-group">
             <button data-toggle="dropdown" class="btn btn-sm dropdown-toggle">
               <span class="flag-xs flag-us"></span>
-              <span class="caret"></span>
+              <!-- <span class="caret"></span> -->
             </button>
             <ul class="dropdown-menu pv5 animated animated-short flipInX" role="menu">
               <li>
@@ -777,16 +784,10 @@
           </ul>
         </li>
       </ul>
-    -->         
-          <div class="ml15 ib va-m" id="toggle_sidemenu_r" style="float:right;padding-top:10px;padding-right:10px;">
-            <a href="#" class="pl5">
-              <i class="fa fa-sign-in fs22 text-primary"></i>
-            </a>
-          </div>
     </header>
     <!-- End: Header -->
 
-    <!-- Start: Sidebar Left -->
+    <!-- Start: Sidebar -->
     <aside id="sidebar_left" class="nano nano-light affix">
 
       <!-- Start: Sidebar Left Content -->
@@ -847,7 +848,7 @@
         </header>
         <!-- End: Sidebar Header -->
 
-        <!-- Start: Sidebar Left Menu -->
+        <!-- Start: Sidebar Menu -->
         <ul class="nav sidebar-menu">
           
 
@@ -1238,7 +1239,7 @@
             </ul>
           </li>
           <li>
-            <a class="accordion-toggle" href="#">
+            <a class="accordion-toggle menu-open" href="#">
               <span class="glyphicon glyphicon-hdd"></span>
               <span class="sidebar-title">Form Elements</span>
               <span class="caret"></span>
@@ -1254,7 +1255,7 @@
                   <span class="label label-xs bg-primary">New</span>
                 </a>
               </li>
-              <li>
+              <li class="active">
                 <a href="form_editors.html">
                   <span class="fa fa-clipboard"></span> Editors </a>
               </li>
@@ -1295,7 +1296,7 @@
             <ul class="nav sub-nav">
               <li>
                 <a class="accordion-toggle" href="#">
-                  <span class="fa fa-globe"></span> Maps
+                  <span class="glyphicon glyphicon-globe"></span> Maps
                   <span class="caret"></span>
                 </a>
                 <ul class="nav sub-nav">
@@ -1315,7 +1316,7 @@
               </li>
               <li>
                 <a class="accordion-toggle" href="#">
-                  <span class="fa fa-line-chart"></span> Charts
+                  <span class="fa fa-area-chart"></span> Charts
                   <span class="caret"></span>
                 </a>
                 <ul class="nav sub-nav">
@@ -1373,7 +1374,7 @@
             </ul>
           </li>
           <li>
-            <a class="accordion-toggle menu-open" href="#">
+            <a class="accordion-toggle" href="#">
               <span class="glyphicon glyphicon-duplicate"></span>
               <span class="sidebar-title">Pages</span>
               <span class="caret"></span>
@@ -1444,12 +1445,12 @@
                 </ul>
               </li>
               <li>
-                <a class="accordion-toggle menu-open" href="#">
+                <a class="accordion-toggle" href="#">
                   <span class="fa fa-desktop"></span> Basic
                   <span class="caret"></span>
                 </a>
                 <ul class="nav sub-nav">
-                  <li class="active">
+                  <li>
                     <a href="pages_search-results.html">Search Results
                       <span class="label label-xs bg-primary">New</span>
                     </a>
@@ -1554,7 +1555,6 @@
       <!-- End: Sidebar Left Content -->
 
     </aside>
-    <!-- End: Sidebar Left -->
 
     <!-- Start: Content-Wrapper -->
     <section id="content_wrapper">
@@ -1623,567 +1623,230 @@
       </header>
       <!-- End: Topbar -->
 
-
       <!-- Begin: Content -->
       <section id="content" class="table-layout animated fadeIn">
-
-        <!-- begin: .tray-right -->
-        <aside class="tray tray-left tray300" data-tray-height="match">
-
-           <!-- User Avatar Media -->
-    			 <div class="media mt20 ml25">
-              <a class="media-left" href="#">
-                <img class="img-responsive mw50" src="assets/img/avatars/1.jpg" width="40" height="40">
-              </a>
-              <div class="media-body">
-                <h4 class="media-heading">Chad Collins - <small class="text-success fw600"> Online </small></h4> 
-              	<a class="fs12 text-muted fw400" href="#">
-	                 Incognito Mode |	Sign Out
-	              </a>
-              </div>
-
-            </div>
-
-            <!-- Privacy Settings Panel -->
-            <div class="panel panel-primary panel-border  top mt30">
-                <div class="panel-body bg-light p10">
-                  <div class="list-group list-group-links list-group-spacing-xs mbn">
-                      <div class="list-group-header"> Your Privacy Settings </div>
-                      <a href="#" class="list-group-item"> Visability: <b class="text-warning pull-right"> Online </b> </a>
-                      <a href="#" class="list-group-item"> Social Sharing: <b class="text-warning pull-right"> Auto </b> </a>
-                      <a href="#" class="list-group-item"> Javascript: <b class="text-success pull-right"> Allowed </b> </a>
-                      <a href="#" class="list-group-item"> Cookies: <b class="text-danger pull-right"> Disabled </b> </a>
-                  </div>
-                </div>
-            </div>
-
-            <!-- Recent Searches Panel -->
-            <div class="panel panel-warning panel-border hidden"> 
-                <div class="panel-body bg-light p10">
-                  <div class="list-group list-group-links list-group-spacing-sm mbn">
-                      <div class="list-group-header"> Recent Searches... </div>
-                      <a href="#" class="list-group-item"> 1. - "Gaming Computer Deals" </a>
-                      <a href="#" class="list-group-item"> 2. - "Sony Entertainment Stock" </a>
-                      <a href="#" class="list-group-item"> 3. - "Apple Smartwatch Release" </a>
-                      <a href="#" class="list-group-item"> 4. - "Facebook Oculus Rift" </a>
-                  </div>
-                </div>
-            </div>
-
-            <!-- Recent Searches Panel -->
-            <div class="panel panel-info panel-border"> 
-                <div class="panel-body bg-light p10">
-                  <div class="list-group list-group-links list-group-spacing-sm mbn">
-                      <div class="list-group-header"> Your Favorites <i class="fa fa-plus pull-right fs10 text-muted"></i> </div>
-                      <a href="#" class="list-group-item"><i class="fa fa-star-o text-warning"></i> www.gizmodo.com </a>
-                      <a href="#" class="list-group-item"><i class="fa fa-star-o"></i> www.yahoo.com/money </a>
-                      <a href="#" class="list-group-item"><i class="fa fa-star-o"></i> www.cnn.com/news </a>
-                      <div class="list-group-header mt15"> Recent Searches... </div>
-                      <a href="#" class="list-group-item"> 1. "Gaming Computer Deals" </a>
-                      <a href="#" class="list-group-item"> 2. "Sony Entertainment Stock" </a>
-                      <a href="#" class="list-group-item"> 3. "Apple Smartwatch Release" </a>
-                      <a href="#" class="list-group-item"> 4. "Facebook Oculus Rift" </a>
-                  </div>
-                </div>
-            </div>
-     
-        </aside>
-        <!-- end: .tray-right -->
-
 
         <!-- begin: .tray-center -->
         <div class="tray tray-center">
 
-	        <!-- Search Results Panel  -->
-	        <div class="panel">
-	          <div class="panel-heading">
-	              <span class="panel-title text-muted hidden-xs"></span>
-	              <ul class="nav panel-tabs-border panel-tabs-merge panel-tabs">
-	                <li class="active"><a href="#search" data-toggle="tab">Classic Search</a></li>
-	                <li><a href="#users" data-toggle="tab">User Search</a></li>
-	              </ul>
-	            </div>
-	            <div class="panel-menu">
-	              <div class="input-group input-hero input-hero-sm">
-	                <span class="input-group-addon">
-	                  <i class="fa fa-search"></i>
-	                </span>
-	                <input type="text" id="icon-filter" class="form-control" placeholder="Enter search terms..">
-	              </div>
-	            </div>
-	            <div class="panel-body ph20">
-	              <div class="tab-content">
+          <!-- Summernote Editor -->
+          <h4 class="micro-header">Summernote - Panel & Live Editor</h4>
+          <div class="panel">
+            <div class="panel-body pn of-h" id="summer-demo">
+              <div class="summernote" style="height: 400px;">This is the
+                <b>Summernote</b> Editor...</div>
+            </div>
+            <div class="panel-body bg-light br-t-n ptn ph20" id="summer-demo2">
+              <div class="summernote-edit">
+                <h3>Highlight this text to Inline Edit!</h3>
+                <p>
+                  <strong> Lorem ipsum dolor sit amet dolor. Duis blandit vestibulum faucibus a, tortor. </strong>
+                </p>
+                <p> Proin nunc justo felis mollis tincidunt, risus risus pede, posuere cubilia Curae, Nullam euismod, enim. Etiam nibh ultricies dolor ac dignissim erat volutpat. Vivamus fermentum
+                  <a href="https://ckeditor.com/">nisl nulla sem in</a> metus. Maecenas wisi. Donec nec erat volutpat. </p>
+                <blockquote>
+                  <p> Libero nunc, rhoncus ante ipsum non ipsum. Nunc eleifend pede turpis id sollicitudin fringilla. Phasellus ultrices, velit ac arcu. </p>
+                </blockquote>
+                <p>Pellentesque nunc. Donec suscipit erat. Pellentesque habitant morbi tristique ullamcorper.</p>
+                <p>
+                  <s>Mauris mattis feugiat lectus nec mauris. Nullam vitae ante.</s>
+                </p>
+              </div>
+            </div>
+          </div>
 
-	              	<!-- Classic Search Pane -->
-	                <div id="search" class="tab-pane active">
+          <!-- CKEditor -->
+          <h4 class="micro-header mt50">Ckeditor - Panel & Live Editor</h4>
+          <textarea name="ckeditor1" id="ckeditor1" name="ckeditor1" rows="12">
+            This is the
+            <b>Ckeditor</b> Plugin...
+          </textarea>
+          <div class="panel">
+            <div class="panel-body bg-light br-t-n ptn ph20">
+              <div id="ckeditor-inline1" contenteditable="true">
+                <h3> Edit in Real Time - Inline Editor!</h3>
+                <p>
+                  <strong> Lorem ipsum dolor sit amet dolor. Duis blandit vestibulum faucibus a, tortor. </strong>
+                </p>
+                <p> Proin nunc justo felis mollis tincidunt, risus risus pede, posuere cubilia Curae, Nullam euismod, enim. Etiam nibh ultricies dolor ac dignissim erat volutpat. Vivamus fermentum
+                  <a href="https://ckeditor.com/">nisl nulla sem in</a> metus. Maecenas wisi. Donec nec erat volutpat. </p>
+              </div>
+              <div id="ckeditor-inline2" contenteditable="true">
+                <blockquote>
+                  <p> Fusce vitae porttitor a, euismod convallis nisl, blandit risus tortor, pretium. Vehicula vitae, imperdiet vel, ornare enim vel sodales rutrum </p>
+                </blockquote>
+                <p>Pellentesque nunc. Donec suscipit erat. Pellentesque habitant morbi tristique ullamcorper.</p>
+                <p>
+                  <s>Mauris mattis feugiat lectus nec mauris. Nullam vitae ante.</s>
+                </p>
+              </div>
+            </div>
+          </div>
 
-	                		<!-- Search Pane Title -->
-	                    <h3>Displaying <b class="text-primary">872</b> results for 'Admin Themes'</h3>
-	                    <hr class="alt">
+          <!-- Markdown Editor -->
+          <h4 class="micro-header mt50">Markdown - Panel & Preview Pane</h4>
+          <div class="panel">
+            <div class="panel-body pn">
+              <form>
+                <!-- markdown title -->
+                <input class="hidden" name="title" type="text" placeholder="Title?" />
 
-	                    <!-- Begin Search Result Entries -->
-	                    <div class="search-result">
-	                       <h3><a href="https://chadcollins.com">ChadCollins.com - A Responsive Admin UI Framework Toolkit</a></h3>
-	                       <ul class="result-meta">
-	                          <li><a href="#">https://www.themeforest.com</a></li>
-	                          <li><a href="#"> 45 ratings </a></li>
-	                          <li>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          </li>
-	                          <li><a href="#"> $22.99 </a></li>
-	                       </ul>
-	                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, obcaecati consequuntur aspernatur neque voluptatum mollitia eaque tenetur ea tempora itaque dolore incidunt explicabo voluptate quaerat at reprehenderit iste iusto asperiores?</p>
-	                       <ul class="result-meta">
-	                          <li><a href="#"> Home </a></li>
-	                          <li><a href="#"> Our Products </a></li>
-	                          <li><a href="#"> About Us </a></li>
-	                          <li><a href="#"> Customer Support </a></li>
-	                       </ul>
-	                    </div>
-                      <div class="search-result">
-                         <h3><a href="https://chadcollins.com">ChadCollins.com - A Responsive Admin UI Framework Toolkit</a></h3>
-                         <ul class="result-meta">
-                            <li><a href="#">https://www.themeforest.com</a></li>
-                            <li><a href="#"> 45 ratings </a></li>
-                            <li>
-                              <i class="fa fa-star-o text-warning"></i>
-                              <i class="fa fa-star-o text-warning"></i>
-                              <i class="fa fa-star-o text-warning"></i>
-                              <i class="fa fa-star-o text-warning"></i>
-                              <i class="fa fa-star-o text-warning"></i>
-                            </li>
-                            <li><a href="#"> $22.99 </a></li>
-                         </ul>
-                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, obcaecati consequuntur aspernatur neque voluptatum mollitia eaque tenetur ea tempora itaque dolore incidunt explicabo voluptate quaerat at reprehenderit iste iusto asperiores?</p>
-                         <ul class="result-meta">
-                            <li><a href="#"> Home </a></li>
-                            <li><a href="#"> Our Products </a></li>
-                            <li><a href="#"> About Us </a></li>
-                            <li><a href="#"> Customer Support </a></li>
-                         </ul>
-                      </div>
-	                    <div class="search-result">
-	                       <h3><a href="https://chadcollins.com">ChadCollins.com - A Responsive Admin UI Framework Toolkit</a></h3>
-	                       <ul class="result-meta">
-	                          <li><a href="#">https://www.themeforest.com</a></li>
-	                          <li><a href="#"> 45 ratings </a></li>
-	                          <li>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          </li>
-	                          <li><a href="#"> $22.99 </a></li>
-	                       </ul>
-	                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, obcaecati consequuntur aspernatur neque voluptatum mollitia eaque tenetur ea tempora itaque dolore incidunt explicabo voluptate quaerat at reprehenderit iste iusto asperiores?</p>
-	                       <ul class="result-meta">
-	                          <li><a href="#"> Home </a></li>
-	                          <li><a href="#"> Our Products </a></li>
-	                          <li><a href="#"> About Us </a></li>
-	                          <li><a href="#"> Customer Support </a></li>
-	                       </ul>
-	                    </div>
-	                    <div class="search-result">
-	                       <h3><a href="https://chadcollins.com">ChadCollins.com - A Responsive Admin UI Framework Toolkit</a></h3>
-	                       <ul class="result-meta">
-	                          <li><a href="#">https://www.themeforest.com</a></li>
-	                          <li><a href="#"> 45 ratings </a></li>
-	                          <li>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          </li>
-	                          <li><a href="#"> $22.99 </a></li>
-	                       </ul>
-	                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, obcaecati consequuntur aspernatur neque voluptatum mollitia eaque tenetur ea tempora itaque dolore incidunt explicabo voluptate quaerat at reprehenderit iste iusto asperiores?</p>
-	                       <ul class="result-meta">
-	                          <li><a href="#"> Home </a></li>
-	                          <li><a href="#"> Our Products </a></li>
-	                          <li><a href="#"> About Us </a></li>
-	                          <li><a href="#"> Customer Support </a></li>
-	                       </ul>
-	                    </div>
-	                    <div class="search-result">
-	                       <h3><a href="https://chadcollins.com">ChadCollins.com - A Responsive Admin UI Framework Toolkit</a></h3>
-	                       <ul class="result-meta">
-	                          <li><a href="#">https://www.themeforest.com</a></li>
-	                          <li><a href="#"> 45 ratings </a></li>
-	                          <li>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          </li>
-	                          <li><a href="#"> $22.99 </a></li>
-	                       </ul>
-	                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, obcaecati consequuntur aspernatur neque voluptatum mollitia eaque tenetur ea tempora itaque dolore incidunt explicabo voluptate quaerat at reprehenderit iste iusto asperiores?</p>
-	                       <ul class="result-meta">
-	                          <li><a href="#"> Home </a></li>
-	                          <li><a href="#"> Our Products </a></li>
-	                          <li><a href="#"> About Us </a></li>
-	                          <li><a href="#"> Customer Support </a></li>
-	                       </ul>
-	                    </div>
-	                    <div class="search-result">
-	                       <h3><a href="https://chadcollins.com">ChadCollins.com - A Responsive Admin UI Framework Toolkit</a></h3>
-	                       <ul class="result-meta">
-	                          <li><a href="#">https://www.themeforest.com</a></li>
-	                          <li><a href="#"> 45 ratings </a></li>
-	                          <li>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          	<i class="fa fa-star-o text-warning"></i>
-	                          </li>
-	                          <li><a href="#"> $22.99 </a></li>
-	                       </ul>
-	                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, obcaecati consequuntur aspernatur neque voluptatum mollitia eaque tenetur ea tempora itaque dolore incidunt explicabo voluptate quaerat at reprehenderit iste iusto asperiores?</p>
-	                       <ul class="result-meta">
-	                          <li><a href="#"> Home </a></li>
-	                          <li><a href="#"> Our Products </a></li>
-	                          <li><a href="#"> About Us </a></li>
-	                          <li><a href="#"> Customer Support </a></li>
-	                       </ul>
-	                    </div>
-	                </div>
+                <!-- markdown editor area -->
+<textarea id="markdown-editor" name="content" rows="10">
+This is the Markdown Editor! Check out my sweet preview below!
+</textarea>
 
-                  <!-- User Search Pane -->
-	                <div id="users" class="tab-pane">
-                    <div class="table-responsive mhn20 mvn15">
-                      <table class="table admin-form theme-warning fs13">
-                        <thead>
-                          <tr class="bg-light">
-                            <th class="">Avatar</th>
-                            <th class="">Name</th>
-                            <th class="">Email</th>
-                            <th class="">Registered</th>
-                            <th class="">Purchases</th>
-                            <th class="">Total Spent</th>
-                            <th class="text-right">Status</th>
+                <!-- markdown publish checkbox -->
+                <label class="checkbox hidden">
+                  <input name="publish" type="checkbox"> Publish
+                </label>
 
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td class="w50">
-                              <img class="img-responsive" title="user" src="assets/img/avatars/2.jpg">
-                            </td>
-                            <td class="">Dave Robert</td>
-                            <td class="">dave@company.com</td>
-                            <td class="">12/03/2014</td>
-                            <td class="">222</td>
-                            <td class="">$3,600</td>
-                            <td class="text-right">
-                              <div class="btn-group text-right">
-                                <button type="button" class="btn btn-success br2 btn-xs fs12 dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> Active
-                                  <span class="caret ml5"></span>
-                                </button>
-                                <ul class="dropdown-menu dropdown-menu-right dropdown-menu dropdown-menu-right-right" role="menu">
-                                  <li>
-                                    <a href="#">Edit</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Contact</a>
-                                  </li>
-                                  <li class="divider"></li>
-                                  <li class="active">
-                                    <a href="#">Active</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Suspend</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Remove</a>
-                                  </li>
-                                </ul>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="w50">
-                              <img class="img-responsive" title="user" src="assets/img/avatars/2.jpg">
-                            </td>
-                            <td class="">Lee Marshall</td>
-                            <td class="">sara@company.com</td>
-                            <td class="">12/03/2014</td>
-                            <td class="">16</td>
-                            <td class="">$4,200</td>
-                            <td class="text-right">
-                              <div class="btn-group text-right">
-                                <button type="button" class="btn btn-success br2 btn-xs fs12 dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> Active
-                                  <span class="caret ml5"></span>
-                                </button>
-                                <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                                  <li>
-                                    <a href="#">Edit</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Contact</a>
-                                  </li>
-                                  <li class="divider"></li>
-                                  <li class="active">
-                                    <a href="#">Active</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Suspend</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Remove</a>
-                                  </li>
-                                </ul>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="w50">
-                              <img class="img-responsive" title="user" src="assets/img/avatars/2.jpg">
-                            </td>
-                            <td class="">Larry Kingster</td>
-                            <td class="">larry@company.com</td>
-                            <td class="">12/03/2014</td>
-                            <td class="">46</td>
-                            <td class="">$16,200</td>
-                            <td class="text-right">
-                              <div class="btn-group text-right">
-                                <button type="button" class="btn btn-success br2 btn-xs fs12 dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> Active
-                                  <span class="caret ml5"></span>
-                                </button>
-                                <ul class="dropdown-menu dropdown-menu-right dropdown-menu dropdown-menu-right-right" role="menu">
-                                  <li>
-                                    <a href="#">Edit</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Contact</a>
-                                  </li>
-                                  <li class="divider"></li>
-                                  <li class="active">
-                                    <a href="#">Active</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Suspend</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Remove</a>
-                                  </li>
-                                </ul>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="w50">
-                              <img class="img-responsive" title="user" src="assets/img/avatars/2.jpg">
-                            </td>
-                            <td class="">Emily Roundwheel</td>
-                            <td class="">emily@company.com</td>
-                            <td class="">12/03/2014</td>
-                            <td class="">06</td>
-                            <td class="">$1,400</td>
-                            <td class="text-right">
-                              <div class="btn-group text-right">
-                                <button type="button" class="btn btn-success br2 btn-xs fs12 dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> Active
-                                  <span class="caret ml5"></span>
-                                </button>
-                                <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                                  <li>
-                                    <a href="#">Edit</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Contact</a>
-                                  </li>
-                                  <li class="divider"></li>
-                                  <li class="active">
-                                    <a href="#">Active</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Suspend</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Remove</a>
-                                  </li>
-                                </ul>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="w50">
-                              <img class="img-responsive" title="user" src="assets/img/avatars/2.jpg">
-                            </td>
-                            <td class="">Nick Cannoneer</td>
-                            <td class="">sara@company.com</td>
-                            <td class="">12/03/2014</td>
-                            <td class="">43</td>
-                            <td class="">$13,600</td>
-                            <td class="text-right">
-                              <div class="btn-group text-right">
-                                <button type="button" class="btn btn-success br2 btn-xs fs12 dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> Active
-                                  <span class="caret ml5"></span>
-                                </button>
-                                <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                                  <li>
-                                    <a href="#">Edit</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Contact</a>
-                                  </li>
-                                  <li class="divider"></li>
-                                  <li class="active">
-                                    <a href="#">Active</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Suspend</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Remove</a>
-                                  </li>
-                                </ul>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="w50">
-                              <img class="img-responsive" title="user" src="assets/img/avatars/2.jpg">
-                            </td>
-                            <td class="">Morgan Lunar</td>
-                            <td class="">morgan@company.com</td>
-                            <td class="">12/03/2014</td>
-                            <td class="">11</td>
-                            <td class="">$3,200</td>
-                            <td class="text-right">
-                              <div class="btn-group text-right">
-                                <button type="button" class="btn btn-success br2 btn-xs fs12 dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> Active
-                                  <span class="caret ml5"></span>
-                                </button>
-                                <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                                  <li>
-                                    <a href="#">Edit</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Contact</a>
-                                  </li>
-                                  <li class="divider"></li>
-                                  <li class="active">
-                                    <a href="#">Active</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Suspend</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Remove</a>
-                                  </li>
-                                </ul>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="w50">
-                              <img class="img-responsive" title="user" src="assets/img/avatars/2.jpg">
-                            </td>
-                            <td class="">Emily Roundwheel</td>
-                            <td class="">emily@company.com</td>
-                            <td class="">12/03/2014</td>
-                            <td class="">06</td>
-                            <td class="">$1,400</td>
-                            <td class="text-right">
-                              <div class="btn-group text-right">
-                                <button type="button" class="btn btn-warning br2 btn-xs fs12 dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> In-Active
-                                  <span class="caret ml5"></span>
-                                </button>
-                                <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                                  <li>
-                                    <a href="#">Edit</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Contact</a>
-                                  </li>
-                                  <li class="divider"></li>
-                                  <li class="active">
-                                    <a href="#">Active</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Suspend</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Remove</a>
-                                  </li>
-                                </ul>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="w50">
-                              <img class="img-responsive" title="user" src="assets/img/avatars/2.jpg">
-                            </td>
-                            <td class="">Lee Marshall</td>
-                            <td class="">sara@company.com</td>
-                            <td class="">12/03/2014</td>
-                            <td class="">16</td>
-                            <td class="">$4,200</td>
-                            <td class="text-right">
-                              <div class="btn-group text-right">
-                                <button type="button" class="btn btn-warning br2 btn-xs fs12 dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> In-Active
-                                  <span class="caret ml5"></span>
-                                </button>
-                                <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                                  <li>
-                                    <a href="#">Edit</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Contact</a>
-                                  </li>
-                                  <li class="divider"></li>
-                                  <li class="active">
-                                    <a href="#">Active</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Suspend</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Remove</a>
-                                  </li>
-                                </ul>
-                              </div>
-                            </td>
-                          </tr>
+                <!-- markdown submit button -->
+                <button type="submit" class="btn btn-default hidden">Submit</button>
+              </form>
+            </div>
+            <div class="panel-body bg-light" style="min-height: 190px;">
 
-                        </tbody>
-                      </table>
-                    </div>
-	                </div>
+              <!-- Markdown Preview Area -->
+              <div id="md-footer" class="fs15">
+                This is the Markdown Editor! Check out my sweet preview below!
+              </div>
+            </div>
 
-	              </div>
-	            </div>
-	            <div class="panel-footer clearfix">
-								<nav>
-								  <ul class="pagination pull-right">
-	                  <li class="prev disabled"><a href="#"><i class="fa fa-angle-left"></i> Previous</a></li>
-	                  <li class="active"><a href="#">1</a></li>
-								    <li><a href="#">2</a></li>
-								    <li><a href="#">3</a></li>
-								    <li><a href="#">4</a></li>
-								    <li><a href="#">5</a></li>
-	                  <li class="next"><a href="#">Next <i class="fa fa-angle-right"></i></a></li>
-								  </ul>
-								</nav>
-	            </div>
-	        </div>
+          </div>
+
+          <!-- X-Editable -->
+          <h4 class="micro-header mt50">XEditor - Inline Editor</h4>
+          <div class="panel" id="xedit-demo">
+            <div class="panel-heading">
+              <span class="panel-title">X-Editable Table Demo </span>
+              <span class="pull-right mr10">
+                <button id="enable" class="btn btn-xs btn-default">enable / disable</button>
+              </span>
+              <span class=" pull-right mr10 hidden-xs">
+                <label class="checkbox-inline lh20 text-muted">
+                  <input type="checkbox" id="autoopen" value="option1">Auto-open next field</label>
+              </span>
+            </div>
+            <div class="panel-body">
+              <div class="alert alert-success">The X-editable plugin allows you to take virtually any text and convert it to an
+                <b>on-the-fly</b> editable field. And you will love the seemless intergrated popup</div>
+              <table id="user" class="table table-bordered table-striped" style="clear: both">
+                <tbody>
+                  <tr>
+                    <td style="width: 35%;">Simple text field</td>
+                    <td style="width: 65%;">
+                      <a href="#" id="username" data-type="text" data-pk="1" data-title="Enter username" class="editable editable-click">superuser</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Empty text field, required</td>
+                    <td>
+                      <a href="#" id="firstname" data-type="text" data-pk="1" data-placement="right" data-placeholder="Required" data-title="Enter your firstname" class="editable editable-click editable-empty">Empty</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Select,
+                      <b>error</b> while loading</td>
+                    <td>
+                      <a href="#" id="status" data-type="select" data-pk="1" data-value="0" data-source="/status" data-title="Select status" class="editable editable-click">Active</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Combodate (date)</td>
+                    <td>
+                      <a href="#" id="dob" data-type="combodate" data-value="1984-05-15" data-format="YYYY-MM-DD" data-viewformat="DD/MM/YYYY" data-template="D / MMM / YYYY" data-pk="1" data-title="Select Date of birth" class="editable editable-click">15/05/1984</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Combodate (datetime)</td>
+                    <td>
+                      <a href="#" id="event" data-type="combodate" data-template="D MMM YYYY  HH:mm" data-format="YYYY-MM-DD HH:mm" data-viewformat="MMM D, YYYY, HH:mm" data-pk="1" data-title="Setup event date and time" class="editable editable-click editable-empty">Empty</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Textarea, buttons below. Submit by
+                      <i>ctrl+enter</i>
+                    </td>
+                    <td>
+                      <a href="#" id="comments" data-type="textarea" data-pk="1" data-placeholder="Your comments here..." data-title="Enter comments" class="editable editable-pre-wrapped editable-click">awesome user!
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Checklist</td>
+                    <td>
+                      <a href="#" id="fruits" data-type="checklist" data-value="2,3" data-title="Select fruits" class="editable editable-click">peach
+                        <br> apple
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Custom input, several fields</td>
+                    <td>
+                      <a href="#" id="address" data-type="address" data-pk="1" data-title="Please, fill address" class="editable editable-click">
+                        <b>Moscow</b>, Lenina st., bld. 12</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
 
         </div>
         <!-- end: .tray-center -->
 
+        <!-- begin: .tray-right -->
+        <aside class="tray tray-right tray320" data-tray-height="match">
+
+          <h4> Admin Editors -<small>For Every Occasion</small></h4>
+          <ul class="icon-list">
+            <li>
+              <i class="fa fa-exclamation-circle text-warning fa-lg pr10"></i>
+              <b> Author:</b> ChadCollins.com
+            </li>
+            <li>
+              <i class="fa fa-exclamation-circle text-warning fa-lg pr10"></i>
+              <b> License:</b> CC - Commercial 3.0
+            </li>
+            <li>
+              <i class="fa fa-exclamation-circle text-warning fa-lg pr10"></i>
+              <b> Website:</b>
+              <a href="https://www.admindesigns.com"> www.admindesigns.com </a>
+            </li>
+          </ul>
+
+          <div id="nav-spy">
+            <ul class="nav tray-nav tray-nav-border" data-smoothscroll="-125" data-spy="affix" data-offset-top="200">
+              <li class="active nav-primary">
+                <a href="#summer-demo"> Summernote Editor</a>
+              </li>
+              <li class="nav-primary">
+                <a href="#summer-demo2"> Summernote Inline Editor</a>
+              </li>
+              <li class="nav-info">
+                <a href="#cke_ckeditor1"> Ckeditor Editor</a>
+              </li>
+              <li class="nav-info">
+                <a href="#ckeditor-inline1"> Ckeditor Inline Editor</a>
+              </li>
+              <li class="nav-warning">
+                <a href="#markdown-editor"> Markdown Editor</a>
+              </li>
+              <li class="nav-warning">
+                <a href="#md-footer"> Markdown Preview Area</a>
+              </li>
+              <li class="nav-warning">
+                <a href="#xedit-demo"> X-Editable Editing</a>
+              </li>
+            </ul>
+          </div>
+
+        </aside>
+        <!-- end: .tray-right -->
 
       </section>
       <!-- End: Content -->
-
-
 
     </section>
 
@@ -2280,6 +1943,18 @@
   </div>
   <!-- End: Main -->
 
+  <style>
+  /* demo styles -summernote */
+  .btn-toolbar > .btn-group.note-fontname {
+    display: none;
+  }
+  /* demo styles - hides several ckeditor toolbar buttons */
+  #cke_52,
+  #cke_53 {
+    display: none !important;
+  }
+  </style>
+
   <!-- BEGIN: PAGE SCRIPTS -->
 
   <!-- jQuery -->
@@ -2290,6 +1965,27 @@
   <script src="assets/js/utility/utility.js"></script>
   <script src="assets/js/demo/demo.js"></script>
   <script src="assets/js/main.js"></script>
+
+  <!-- Ckeditor JS -->
+  <script src="vendor/plugins/ckeditor/ckeditor.js"></script>
+
+  <!-- Summernote Plugin -->
+  <script src="vendor/plugins/summernote/summernote.min.js"></script>
+
+  <!-- MarkDown JS -->
+  <script src="vendor/plugins/markdown/markdown.js"></script>
+  <script src="vendor/plugins/markdown/to-markdown.js"></script>
+  <script src="vendor/plugins/markdown/bootstrap-markdown.js"></script>
+
+  <!-- X-Edit JS -->
+  <script src="vendor/plugins/moment/moment.min.js"></script>
+  <!-- X-Edit Dependencies -->
+  <script src="vendor/plugins/xeditable/js/bootstrap-editable.min.js"></script>
+  <script src="vendor/plugins/xeditable/inputs/address/address.js"></script>
+  <script src="vendor/plugins/xeditable/inputs/typeaheadjs/lib/typeahead.js"></script>
+  <script src="vendor/plugins/xeditable/inputs/typeaheadjs/typeaheadjs.js"></script>
+
+  <!-- Page Javascript -->
   <script type="text/javascript">
   jQuery(document).ready(function() {
 
@@ -2300,6 +1996,216 @@
 
     // Init Demo JS  
     Demo.init();
+
+
+    // Init Summernote Plugin
+    $('.summernote').summernote({
+      height: 255, //set editable area's height
+      focus: false, //set focus editable area after Initialize summernote
+      oninit: function() {},
+      onChange: function(contents, $editable) {},
+    });
+
+    // Init Inline Summernote Plugin
+    $('.summernote-edit').summernote({
+      airMode: true,
+      focus: false //set focus editable area after Initialize summernote            
+    });
+
+    // Turn off automatic editor initilization.
+    // Used to prevent conflictions with multiple text 
+    // editors being displayed on the same page.
+    CKEDITOR.disableAutoInline = true;
+
+    // Init Ckeditor
+    CKEDITOR.replace('ckeditor1', {
+      height: 210,
+      on: {
+        instanceReady: function(evt) {
+          $('.cke').addClass('admin-skin cke-hide-bottom');
+        }
+      },
+    });
+
+    // Init Inline Ckeditors
+    CKEDITOR.inline('ckeditor-inline1');
+    CKEDITOR.inline('ckeditor-inline2');
+
+    // Init MarkDown Editor
+    $("#markdown-editor").markdown({
+      savable: false,
+      onChange: function(e) {
+        var content = e.parseContent(),
+          content_length = (content.match(/\n/g) || []).length + content.length
+        if (content == '') {
+          $('#md-footer').hide()
+        } else {
+          $('#md-footer').show().html(content)
+        }
+      }
+    });
+
+    // Init X-editable Plugin
+    function XEdit() {
+      //enable / disable xedit
+      $('#enable').click(function() {
+        $(this).toggleClass('active');
+        $('#user .editable').editable('toggleDisabled');
+      });
+
+      //editables 
+      $('#username').editable({
+        type: 'text',
+        pk: 1,
+        name: 'username',
+        title: 'Enter username'
+      });
+
+      $('#firstname').editable({
+        validate: function(value) {
+          if ($.trim(value) == '') return 'This field is required';
+        }
+      });
+
+      $('#sex').editable({
+        prepend: "not selected",
+        source: [{
+          value: 1,
+          text: 'Male'
+        }, {
+          value: 2,
+          text: 'Female'
+        }],
+        display: function(value, sourceData) {
+          var colors = {
+              "": "gray",
+              1: "green",
+              2: "blue"
+            },
+            elem = $.grep(sourceData, function(o) {
+              return o.value == value;
+            });
+
+          if (elem.length) {
+            $(this).text(elem[0].text).css("color", colors[value]);
+          } else {
+            $(this).empty();
+          }
+        }
+      });
+
+      $('#status').editable();
+
+      $('#group').editable({
+        showbuttons: false
+      });
+
+      $('#vacation').editable({
+        datepicker: {
+          todayBtn: 'linked'
+        }
+      });
+
+      $('#dob').editable();
+
+      $('#event').editable({
+        placement: 'right',
+        combodate: {
+          firstItem: 'name'
+        }
+      });
+
+      $('#meeting_start').editable({
+        format: 'yyyy-mm-dd hh:ii',
+        viewformat: 'dd/mm/yyyy hh:ii',
+        validate: function(v) {
+          if (v && v.getDate() == 10) return 'Day cant be 10!';
+        },
+        datetimepicker: {
+          todayBtn: 'linked',
+          weekStart: 1
+        }
+      });
+
+      $('#comments').editable({
+        showbuttons: 'bottom'
+      });
+
+      $('#note').editable();
+      $('#pencil').click(function(e) {
+        e.stopPropagation();
+        e.preventDefault();
+        $('#note').editable('toggle');
+      });
+
+      $('#state').editable({
+        source: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Dakota", "North Carolina", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"]
+      });
+
+      $('#state2').editable({
+        value: 'California',
+        typeahead: {
+          name: 'state',
+          local: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Dakota", "North Carolina", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"]
+        }
+      });
+
+      $('#fruits').editable({
+        pk: 1,
+        limit: 3,
+        source: [{
+          value: 1,
+          text: 'banana'
+        }, {
+          value: 2,
+          text: 'peach'
+        }, {
+          value: 3,
+          text: 'apple'
+        }, {
+          value: 4,
+          text: 'watermelon'
+        }, {
+          value: 5,
+          text: 'orange'
+        }]
+      });
+
+      $('#address').editable({
+        url: '/post',
+        value: {
+          city: "Moscow",
+          street: "Lenina",
+          building: "12"
+        },
+        validate: function(value) {
+          if (value.city == '') return 'city is required!';
+        },
+        display: function(value) {
+          if (!value) {
+            $(this).empty();
+            return;
+          }
+          var html = '<b>' + $('<div>').text(value.city).html() + '</b>, ' + $('<div>').text(value.street).html() + ' st., bld. ' + $('<div>').text(value.building).html();
+          $(this).html(html);
+        }
+      });
+
+      $('#user .editable').on('hidden', function(e, reason) {
+        if (reason === 'save' || reason === 'nochange') {
+          var $next = $(this).closest('tr').next().find('.editable');
+          if ($('#autoopen').is(':checked')) {
+            setTimeout(function() {
+              $next.editable('show');
+            }, 300);
+          } else {
+            $next.focus();
+          }
+        }
+      });
+
+    };
+    XEdit();
 
   });
   </script>

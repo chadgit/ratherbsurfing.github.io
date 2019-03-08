@@ -1,0 +1,106 @@
+
+{
+    "timeline":
+    {
+        "headline":"ChadCollins.com Resume",
+        "type":"default",
+		"startDate":"2009,1",
+		"text":"<i><span class='c1'>Anything</span> is <span class='c2'>Possible</span></i>",
+		"asset":
+        {
+            "media":"assets/img/notes.png",
+            "credit":"",
+            "caption":""
+        },
+        "date": [
+            {
+                "startDate":"2011,2",
+                "headline":"cSubs.com",
+                "text":"Engineering Manager, Full Stack Developer",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2012,5",
+                "headline":"Redesign of my portfolio",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2013,7",
+                "headline":"Some other timeline event",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2014,10",
+                "headline":"Developed a Gmail Client",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2015,3",
+                "headline":"Logo Design for a pet shop",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2016,4",
+                "headline":"Some other test",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2017,8",
+                "headline":"Illustration for a big client.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2018,12",
+                "headline":"cSubs.com",
+                "text":"Created the website for their new advertising campaign.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            }
+        ]
+    }
+}
