@@ -2750,7 +2750,7 @@ fieldset[disabled] .note-editor .btn-link:focus {
 .note-editor .glyphicon-fullscreen:before {
   content: "\e140";
 }
-.note-editor .glyphicon-dashboard:before {
+.note-editor .glyphicon-Home:before {
   content: "\e141";
 }
 .note-editor .glyphicon-paperclip:before {

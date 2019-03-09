@@ -1174,7 +1174,7 @@ Copyright (c) 2014 Daniel Eden
 .glyphicon-fullscreen:before {
   content: "\e140";
 }
-.glyphicon-dashboard:before {
+.glyphicon-Home:before {
   content: "\e141";
 }
 .glyphicon-paperclip:before {
@@ -2326,7 +2326,7 @@ Copyright (c) 2014 Daniel Eden
 .fa-gavel:before {
   content: "\f0e3";
 }
-.fa-dashboard:before,
+.fa-Home:before,
 .fa-tachometer:before {
   content: "\f0e4";
 }

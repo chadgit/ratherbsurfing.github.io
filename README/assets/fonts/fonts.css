@@ -805,7 +805,7 @@
 .fa-gavel:before {
   content: "\f0e3";
 }
-.fa-dashboard:before,
+.fa-Home:before,
 .fa-tachometer:before {
   content: "\f0e4";
 }
@@ -3166,7 +3166,7 @@ html,html .halflings {
     content:"\e331"
 }
 
-.glyphicons-dashboard:before {
+.glyphicons-Home:before {
     content:"\e332"
 }
 
@@ -3712,7 +3712,7 @@ html,html .halflings {
   content: '\f0ca'; }
 
 /*  */
-.octicon-dashboard:before {
+.octicon-Home:before {
   content: '\f07d'; }
 
 /*  */

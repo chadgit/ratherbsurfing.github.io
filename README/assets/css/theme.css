@@ -1137,7 +1137,7 @@ Copyright (c) 2014 Daniel Eden
 .glyphicon-fullscreen:before {
   content: "\e140";
 }
-.glyphicon-dashboard:before {
+.glyphicon-Home:before {
   content: "\e141";
 }
 .glyphicon-paperclip:before {
@@ -2293,7 +2293,7 @@ Copyright (c) 2014 Daniel Eden
 .fa-gavel:before {
   content: "\f0e3";
 }
-.fa-dashboard:before,
+.fa-Home:before,
 .fa-tachometer:before {
   content: "\f0e4";
 }
@@ -15229,7 +15229,7 @@ body.boxed-layout #toggle_sidemenu_r {
  * below refer to the columns new width.
 * ---------------------------------------------
    PAGES REQUIRING 100% COLUMNS(in order):
-   * DASHBOARD.HTML
+   * Home.HTML
    * CHARTS.HTML 
    * TABS.HTML 
    * FORMS.HTML 
@@ -15255,8 +15255,8 @@ body.boxed-layout #toggle_sidemenu_r {
  * you have changed a columns default 
  * HTML you will need to update this.
 -------------------------------------------------*/
-body.boxed-layout.dashboard-page .container > .row > .col-md-4,
-body.boxed-layout.dashboard-page .container > .row > .col-md-8,
+body.boxed-layout.Home-page .container > .row > .col-md-4,
+body.boxed-layout.Home-page .container > .row > .col-md-8,
 body.boxed-layout.charts-page .container > .row > .col-md-6,
 body.boxed-layout.tabs-page .container > .row > .col-md-6,
 body.boxed-layout.forms-page .container > .row > .col-md-6,
@@ -15338,7 +15338,7 @@ body.boxed-layout.icons-page .container > .row > .col-md-3 {
  * elements(buttons, backgrounds, etc)
 /* ----------------------------------------
    PAGES LISTED BELOW INCLUDE(in order):
-   * DASHBOARD/INDEX.HTML
+   * Home/INDEX.HTML
    * TIMELINE.HTML
    * GALLERY.HTML
    * MESSAGES.HTML
@@ -15352,17 +15352,17 @@ body.boxed-layout.icons-page .container > .row > .col-md-3 {
    * INVOICE-PAGE.HTML
    * MINIMAL(login, screenlock, etc)
 -----------------------------------------*/
-/* DASHBOARD.HTML / INDEX.HTML */
-body.boxed-layout.dashboard-page .message-widget {
+/* Home.HTML / INDEX.HTML */
+body.boxed-layout.Home-page .message-widget {
   margin-top: 0;
 }
-body.boxed-layout.dashboard-page .console-btn-5,
-body.boxed-layout.dashboard-page #timeline-widget,
-body.boxed-layout.dashboard-page #console-search-btn {
+body.boxed-layout.Home-page .console-btn-5,
+body.boxed-layout.Home-page #timeline-widget,
+body.boxed-layout.Home-page #console-search-btn {
   display: none !important;
 }
 @media (min-width: 1368px) {
-  body.boxed-layout.dashboard-page #console-btns .row > div {
+  body.boxed-layout.Home-page #console-btns .row > div {
     width: 25%;
     float: left;
   }
@@ -15860,7 +15860,7 @@ ul.sidebar-nav ul#sideEight.sub-nav > li > a:hover {
       A. Header
 	  B. Content
 	  C. Sidebar
-	  D. Dashboard.html
+	  D. Home.html
 	  	  
 * These styles control various aspects of the
 * site which benefit from being responsive 
